@@ -18,8 +18,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/home/about/</guid>
-      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+      <description>Biography Santosh Bhattarai is a lecturer in space geodesy in the Department of Civil, Environmental and Geomatic Engineering (CEGE) at University College London (UCL) with research interests in astrodynamics and space debris dynamics for orbit prediction and orbit determination, and also, in various aspects of global navigation satellite systems (GNSS) and related technologies.</description>
     </item>
     
     <item>
@@ -69,10 +68,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
     
     <item>
       <title>Custom Section</title>
-      <link>https://s-bhattarai.github.io/home/teaching/</link>
+      <link>https://s-bhattarai.github.io/home/custom/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
-      <guid>https://s-bhattarai.github.io/home/teaching/</guid>
+      <guid>https://s-bhattarai.github.io/home/custom/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
@@ -84,6 +83,16 @@ To remove this section, either delete content/home/teaching.md or edit the front
       
       <guid>https://s-bhattarai.github.io/home/tags/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://s-bhattarai.github.io/home/test/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/home/test/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
     
     <item>
