@@ -7,37 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Amma</title>
-      <link>https://s-bhattarai.github.io/tags/amma/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/tags/amma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>https://s-bhattarai.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/tags/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Series-transforms</title>
-      <link>https://s-bhattarai.github.io/tags/series-transforms/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/tags/series-transforms/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
