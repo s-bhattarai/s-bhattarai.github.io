@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://s-bhattarai.github.io/teaching/</loc>
+      <lastmod>2018-06-08T11:20:22+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://s-bhattarai.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -32,7 +41,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/teaching/example-lecture-notes/</loc>
+      <loc>https://s-bhattarai.github.io/courses/amma/fourier-series/</loc>
       <lastmod>2016-04-27T00:00:00+01:00</lastmod>
     </url>
     
@@ -41,7 +50,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/teaching/fourier-series/</loc>
+      <loc>https://s-bhattarai.github.io/courses/amma/laplace-and-fourier-transforms/</loc>
       <lastmod>2016-04-27T00:00:00+01:00</lastmod>
     </url>
     
@@ -50,7 +59,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/teaching/laplace-and-fourier-transforms/</loc>
+      <loc>https://s-bhattarai.github.io/courses/amma/maclaurin-and-taylor-series/</loc>
       <lastmod>2016-04-27T00:00:00+01:00</lastmod>
     </url>
     
@@ -59,7 +68,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/teaching/maclaurin-and-taylor-series/</loc>
+      <loc>https://s-bhattarai.github.io/courses/amma/polynomial-approximations/</loc>
       <lastmod>2016-04-27T00:00:00+01:00</lastmod>
     </url>
     
@@ -68,7 +77,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/teaching/polynomial-approximations/</loc>
+      <loc>https://s-bhattarai.github.io/teaching/teaching-home/</loc>
       <lastmod>2016-04-27T00:00:00+01:00</lastmod>
     </url>
     
@@ -88,6 +97,16 @@
     <url>
     
       <loc>https://s-bhattarai.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/courses/</loc>
+      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -136,16 +155,6 @@
     <url>
     
       <loc>https://s-bhattarai.github.io/tags/</loc>
-      <lastmod>2016-04-27T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/teaching/</loc>
       <lastmod>2016-04-27T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
