@@ -23,12 +23,13 @@ Links</description>
     </item>
     
     <item>
-      <title>Mathematical Modelling &amp; Analysis</title>
+      <title>Mathematical Modelling &amp; Analysis (MMA)</title>
       <link>https://s-bhattarai.github.io/teaching/mma/mma-home/</link>
       <pubDate>Wed, 13 Jun 2018 17:23:28 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/teaching/mma/mma-home/</guid>
-      <description></description>
+      <description>In this Year 1 Term 1 module, students develop their understanding of a range of mathematical concepts and are taught to apply their knowledge to solve a variety of problems across a range of engineering disciplines using Matlab and Excel. Topics covered include:
+ Vectors Linear Algebra Complex Numbers Calculus (Differentiation &amp;amp; Integration) Ordinary Differential Equations Probability Statistical Analysis  Induction Week Presentation </description>
     </item>
     
     <item>
@@ -75,6 +76,15 @@ If this works, then I understand how to use widgets better now, finally.</descri
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/teaching/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Induction Week</title>
+      <link>https://s-bhattarai.github.io/teaching/mma/induction-week/</link>
+      <pubDate>Fri, 13 Jul 2018 14:07:42 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/mma/induction-week/</guid>
       <description></description>
     </item>
     
