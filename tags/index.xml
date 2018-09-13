@@ -6,10 +6,20 @@
     <description>Recent content in Tags on Santosh Bhattarai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2018 Santosh Bhattarai</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Phd</title>
+      <link>https://s-bhattarai.github.io/tags/phd/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/tags/phd/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
