@@ -42,10 +42,10 @@ we will run through a simple Matlab workflow that involves
 loading a data set from an Excel (.xlsx) file into your local Matlab environment,
 and analysing that data set using in-built Matlab functions for summarising 
 and visualising those data sets. This year, as much as possible, we will aim 
-to solve problems using programming, and so you will be discouraged from 
+to solve problems using programming. So you will be discouraged from 
 using methods that rely on the Graphical User Interface (GUI), and you will 
-be encouraged to write scripts, functions that you can use, develop and re-use
-throughout the module. 
+be encouraged to write scripts and functions (.m files) that you can use, 
+develop and re-use throughout the module. 
 
 ## The Matlab Environment
 
@@ -53,30 +53,13 @@ But first, let's make sure we set up a Matlab Integrated Development Environment
 
 ![Figure [frMatlabIDE]: Matlab Integrated Development Environment](images/matlab_ide_setup.png)
 
-The most important components of the MATLAB IDE are the Editor, the Command Window, the Workspace and the Current Folder section. If you aren't able to see any of these sections, 
+The most important components of the MATLAB IDE are the Editor, the Command Window, the Workspace and the Current Folder section. If you aren't able to see any of these sections, check the layout button on the Home Tab. There are some options there for organising the layout of your MATLAB IDE. 
 
 Editor
 :	This is the MATLAB text editor where scripts and functions[^other_editors] are written.
 
 Command Window
-:	In-built MATLAB functions and user-built scripts or functions can be directly called from the command window. Some useful commands are given below.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Python linenumbers
-% Calling a function or script (could be user-built *.m file)
->> *
-
-% Accessing help for an in-built Matlab function *
->> help *
-
-% Print working directory
->> pwd
-
-% Clear workspace
->> clear
-
-% Clear command window
->> clc
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:	In-built MATLAB functions and user-built scripts or functions can be directly called from the command window. 
 
 Workspace
 :	When variables are created, they show up in the Workspace. You can explore the properties of those variables from within the Workspace.
@@ -84,6 +67,7 @@ Workspace
 
 Current Folder
 :	Self-explanatory, shows the files and folders in your current working directory. Sometimes, you may want to access resources (e.g. data files, functions) that are not in the current folder or in any of the folder in the MATLAB path. In that case, you should be able to identify where the relative path of the resources in relation to the current working directory.
+
 
 
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
