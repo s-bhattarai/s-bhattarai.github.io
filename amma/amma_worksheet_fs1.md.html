@@ -1,0 +1,50 @@
+**BARC0130 AMMA: Fourier Series I**
+	Worksheet 2: Investigating the properties of Fourier Series
+
+# Basic Definitions
+
+The function, $f(x)$, can be expressed by its Fourier Series, $F(x)$, at those points where $f(x)$ is continuous, if:
+
+- it is a periodic function such that $f(x+2T)=f(x)$, where $T$ is the period
+- it defined and it is single-valued 
+- it is piecewise continuous (i.e. there are a finite number of finite discontinuities) over a single period
+
+If these properties, the **Dirichlet conditions**, are satisfied, the Fourier Series of $f(x)$ is:
+
+\begin{equation}
+F(x) = a_0 + \sum\limits_{n=1}^\infty{a_n\cos(nx)} + \sum\limits_{n=1}^\infty{b_n\sin(nx)}
+\end{equation}
+
+where the coefficients of $F(x)$ are:
+
+\begin{equation}
+a_0 = \frac{1}{\pi}\int_{0}^{2\pi}{f(x)dx}
+\end{equation}
+
+\begin{equation}
+a_n = \frac{1}{\pi}\int_{0}^{2\pi}{f(x)\cos(nx)dx}
+\end{equation}
+
+\begin{equation}
+b_n = \frac{1}{\pi}\int_{0}^{2\pi}{f(x)\sin(nx)dx}
+\end{equation}
+
+# Question
+
+Write out the analytical expression of the function depicted in Figure [fr_sawtooth]. Note that the pattern repeats itself in both directions.
+
+Discuss whether or not this function satisfies the Dirichlet conditions? 
+
+Find the coefficients $a_0$, $a_n$ and $b_n$ of the Fourier Series, $F(x)$, for this function. What is the value of $F(x)$ at $2\pi?$ 
+
+Using MATLAB, compute the Fourier Series up to $n=20$ in the domain $0 \leq x < 6\pi$. Plot 
+the values of $x$ against $F_n(x)$, where $F_n(x)$ is the Fourier Series expansion of function
+truncated at $n$.
+
+![Figure [fr_sawtooth]: Sawtooth function in the domain $0 \leq x < 6\pi$. Note, the dashed lines are included to show discontinuites only.](images/sawtooth.png)
+
+## Guidance
+
+This is a problem that has has several components to it. You need to break it down and solve each component of the problem in sequence. 
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
