@@ -169,16 +169,6 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/tags/phd/</loc>
-      <lastmod>2018-09-18T09:36:04+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://s-bhattarai.github.io/project/</loc>
       <lastmod>2018-09-18T09:36:04+01:00</lastmod>
       <priority>0</priority>
@@ -210,6 +200,15 @@
     <url>
     
       <loc>https://s-bhattarai.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/tags/phd/</loc>
       <lastmod>2018-09-18T09:36:04+01:00</lastmod>
       <priority>0</priority>
     </url>

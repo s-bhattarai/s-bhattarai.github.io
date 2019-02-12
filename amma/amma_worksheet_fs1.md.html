@@ -1,18 +1,18 @@
 **BARC0130 AMMA: Fourier Series I**
 	Worksheet 2: Investigating the properties of Fourier Series
 
-# Basic Definitions
+# Basic Definitions (special case where period = $2\pi$)
 
 The function, $f(x)$, can be expressed by its Fourier Series, $F(x)$, at those points where $f(x)$ is continuous, if:
 
-- it is a periodic function such that $f(x+2T)=f(x)$, where $T$ is the period
+- it is a periodic function such that $f(x+2\pi)=f(x)$, where $2\pi$ is the period
 - it defined and it is single-valued 
 - it is piecewise continuous (i.e. there are a finite number of finite discontinuities) over a single period
 
 If these properties, the **Dirichlet conditions**, are satisfied, the Fourier Series of $f(x)$ is:
 
 \begin{equation}
-F(x) = a_0 + \sum\limits_{n=1}^\infty{a_n\cos(nx)} + \sum\limits_{n=1}^\infty{b_n\sin(nx)}
+F(x) = \frac{a_0}{2} + \sum\limits_{n=1}^\infty{a_n\cos(nx)} + \sum\limits_{n=1}^\infty{b_n\sin(nx)}
 \end{equation}
 
 where the coefficients of $F(x)$ are:

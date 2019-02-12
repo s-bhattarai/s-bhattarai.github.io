@@ -1,0 +1,48 @@
+**BARC0130 CW2: Fourier Series I & II**
+	**Fourier Series models of real world periodic processes**
+		*Deadline: Hardcopy submission @ 1000 on Monday, 29 October 2018*
+	*Late submissions will be penalised according to [standard UCL regulations](https://www.ucl.ac.uk/academic-manual/chapters/chapter-4-assessment-framework-taught-programmes/section-3-module-assessment#3.12).*
+
+# General definition for an arbitrary period $T$
+
+The function, $f(t)$, can be expressed by its Fourier Series, $F(t)$ , at those points where $f(t)$ is continuous, if:
+
+- it is a periodic function such that $f(t+T)=f(t)$, where $T$ is the period
+- it defined and it is single-valued 
+- it is piecewise continuous (i.e. there are a finite number of finite discontinuities) over a single period
+
+If these properties, the **Dirichlet conditions**, are satisfied, the Fourier Series of the function is:
+
+\begin{equation}
+f(t) = \frac{a_0}{2} + \sum\limits_{n=1}^\infty{a_n\cos(n \omega t)} + \sum\limits_{n=1}^\infty{b_n\sin(n \omega t)}
+\end{equation}
+
+where $\omega = \frac{2 \pi}{T}$ and the coefficients of $F(t)$ are:
+
+\begin{equation}
+a_0 = \frac{2}{T}\int_{0}^{T}{f(t)dt}
+\end{equation}
+
+\begin{equation}
+a_n = \frac{2}{T}\int_{0}^{T}{f(t)\cos(n \omega t)dt}
+\end{equation}
+
+\begin{equation}
+b_n = \frac{2}{T}\int_{0}^{T}{f(t)\sin(n \omega t)dt}
+\end{equation}
+
+# Question
+
+Consider the number of people onsite at UCL Here East at any given time, $t$, to be a periodic variable, $f(t+T) = f(t)$, where the period, $T$, is 24 hours. The site is closed from 2200 to 1000 when there are only two members of security staff onsite. The doors open at 1000 at which point 12 eager students run straight into the building to work on their projects for 12 hours. Assume no one else goes in or out of the building during this time period. The building closes at 2200, at which time all of the students are tired and leave the building to head home and rest. The security staff lock the doors for the night, remaining inside.
+
+- Sketch $f(t)$ over two full cycles (10). 
+- Write out the analytical expression for $f(t)$ (10).
+- Find the coefficients $a_0$, $a_n$ and $b_n$ of the Fourier Series of $f(t)$ (40).
+- Using MATLAB, sketch $f(t)$ over two cycles using MATLAB's line function. On the same figure, plot the Fourier Series of $f(t)$ up to $n=10$. Use your figure to explain the concept of Gibb's phenomenon (20).
+- Discuss the limitations of the model proposed in the question. Propose an enhanced analytical model, sketch its figure and write out its analytical expression. Explain how the enhanced model addresses limitations of the original model (20). 
+
+## Guidance
+
+There are a number of integrals to evaluate for this question. They are all very straightforward, but it can get messy and unduly complicated for you if you are not well organised. Think carefully about how you lay out your work on paper. For the MATLAB component of the question, you can adapt the MATLAB script for plotting the Sawtooth Function that we discussed in class. You will find it on Moodle. The marks (out of 100) for each component of the question are indicated. If you would like any clarification about the coursework question, you must ask through the Moodle Student Forum, where any information we provide will be visible to the whole class. We will not respond to coursework related questions that are raised by email, as this risks being unfair to other students. Good luck!
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>

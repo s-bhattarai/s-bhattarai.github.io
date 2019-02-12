@@ -1,0 +1,48 @@
+**BARC0130 AMMA Coursework 2: Fourier Series I & II**
+	**Fourier Series models of real world periodic processes**
+	*Deadline: Hardcopy submission @ 1000 on Monday, 29 October 2018*
+	*Please remember that coursework submission deadlines are strict. Late submissions will be penalised.*
+
+
+# General definition for an arbitrary period $T$
+
+The function, $f(t)$, can be expressed by its Fourier Series, $F(t)$ , at those points where $f(t)$ is continuous, if:
+
+- it is a periodic function such that $f(t+T)=f(t)$, where $T$ is the period
+- it defined and it is single-valued 
+- it is piecewise continuous (i.e. there are a finite number of finite discontinuities) over a single period
+
+If these properties, the **Dirichlet conditions**, are satisfied, the Fourier Series of the function is:
+
+\begin{equation}
+f(t) = \frac{a_0}{2} + \sum\limits_{n=1}^\infty{a_n\cos(n \omega t)} + \sum\limits_{n=1}^\infty{b_n\sin(n \omega t)}
+\end{equation}
+
+where $\omega = \frac{2 \pi}{T}$ and the coefficients of $F(t)$ are:
+
+\begin{equation}
+a_0 = \frac{2}{T}\int_{0}^{T}{f(t)dt}
+\end{equation}
+
+\begin{equation}
+a_n = \frac{2}{T}\int_{0}^{T}{f(t)\cos(n \omega t)dt}
+\end{equation}
+
+\begin{equation}
+b_n = \frac{2}{T}\int_{0}^{T}{f(t)\sin(n \omega t)dt}
+\end{equation}
+
+# Question
+
+Consider the number of people onsite at UCL Here East at any given time, $t$, to be a periodic variable, $f(t+T) = f(t)$, where the period, $T$, is 24 hours. The site is closed from 2200 to 1000 when there are only two members of security staff onsite. The doors open at 1000 at which point 12 eager students run straight into the building to work on their projects for 6 hours. Assume no one else goes in or out of the building during this time period. At 1600 some of the students begin to get tired and start leaving for home at a rate of 2 per hour until 2200, by which point all students have left and the security staff lock the doors, remaining inside.
+
+- Sketch $f(t)$ over two full cycles. 
+- Write out the analytical expression for $f(t)$.
+- Find the coefficients $a_0$, $a_n$ and $b_n$ of the Fourier Series of $f(t)$.
+- Discuss the limitations of the model proposed in the question. In particular, consider our assumption that the number of people onsite at Here East can be represented by a variable with a repeat period of 24 hours and propose an enhanced model. You can do this using words, figures and equations.  
+
+## Guidance
+
+There are a number of integrals to evaluate for this question. The integrals are very straightforward, but it will get messy and unduly complicated for you if you are not well organised. Think carefully about how you lay out your work on paper. If you have any  questions about the coursework question, you can ask for clarfications on the Moodle Student Forum. We will not respond to coursework related questions by email, as this risks being unfair to other students. Good luck!
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>

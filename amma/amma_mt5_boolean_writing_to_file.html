@@ -1,0 +1,115 @@
+**Programming with MATLAB for BARC0130: Advanced Mathematical Modelling & Analysis**
+	**Tutorial 5: Notes and Exercises**
+
+The fundamental data type in MATLAB is a MATLAB array (or matrix). MATLAB arrays can be classified into the following types:
+
+- **Numeric**
+- **Cell**
+- Boolean
+- **Char**
+- Struct 
+- Table
+
+We have come across numeric, char and cell arrays in previous sessions. The only data types in MATLAB that are not arrays are function (or object) handles, such as figure handles, file handles etc. These object handles are scalar types. 
+
+In this tutorial, we will first focus on the **boolean** array types in MATLAB. In a boolean array, all of the elements can take one of only two values:
+- 1, corresponding to True
+- 0, corresponding to False 
+
+We will also cover special values in MATLAB (including Inf and NaN). Then, we look into writing outputs from a MATLAB program and saving it into a data file. This should prepare you for the final exercise, which requires you to take inputs from two data files, which are on Moodle: 'nyc_building_energy_usage.csv' (which is missing some key data) and 'nyc_building_energy_usage_missing_data.csv' to produce a third data set that is complete in the sense that the missing data issue is resolved. In the real-world, data is messy and the ability to deal with data quality issues and merge data sets together is a useful skill to have.  
+
+# Boolean Variables and Arrays
+Boolean variables are variables that can have either of two values: 0 or 1. Boolean variables are incredibly important in programming. They are used to control how programs operate i.e. they are used in loops and conditional statements to execute instructions in the manner that is desired by the programmers, using relational (see Table [relational_operators]) and logical operators(see Table [logical_operators]). 
+
+
+| Relational Operator |         Description         | Example: (x=10) |
+|:----------------:|:---------------------------:|:--------------:|
+|        $==$        |         is equal to         |    $(x==5) = 0$    |
+|        $~=$        |       is not equal to       |    $(x~=5) = 1$    |
+|         $>$        |       is greater than       |    $(x>5) = 1$    |
+|        $>=$        | is greater than or equal to |    $(x>=5) = 1$    |
+|         $<$        |         is less than        |     $(x< 5) = 0$    |
+|        $<=$       |   is less than or equal to  |    $(x<=5) = 0$    |
+[Table [relational_operators]: Relational Operators in MATLAB.]
+
+
+
+
+| Logical Operator | MATLAB Symbol |  Example: A=[1 0 0 1]; B=[0 1 0 1] |
+|:----------------:|:-------------:|:--------------------------------:|
+|        AND       |       &       |           A&B=[0 0 0 1]          |
+|        OR        |       $\mid$       |          A $\mid$ B=[1 1 1 1]         |
+|        NOT       |       ~       |     ~A=[0 1 1 0]; ~B=[1 0 1 0]    |
+|        XOR       |      xor      |        xor(A,B)=[1 1 0 0]        |
+[Table [logical_operators]: Logical Operators in MATLAB.]
+
+!!!
+   A key point to note is that when we use relational or logical operators, we are  making a statement (e.g. $x<=5$ is read as "$x$ is less than or equal to 5"), and that statement must always have a true or false answer. Therefore, the output of such a statement will be a boolean variable. 
+
+!!!WARNING
+   In the examples above all of the boolean operators are acting on integer data types. If performing comparisons between two float or double data types, it is important to be aware of round-off and truncation errors that can occur when real numbers are represented by float or double data types, and to use an appropriate tolerance when making comparisons between to floating point data types. For example, suppose the same number is represented as $a=6.400000000000$ and $b=6.3999999999$. In order to make a valid comparison between $a$ and $b$, you must set an appropriate tolerance, e.g. $tol=1\times10^{-10}$. In such cases, $a==b$ becomes  $abs(a-b)< tol$.
+
+**Exercise 1.** Let $x=6$ and $y=10$. What is the result of each of the following statements:
+- $x==6$
+- $x~=10$
+- $x==10$
+- $x>10$
+- $x<=10$
+- $x< 10$ | $y< 10$
+- $x< 10$ & $y< 10$
+- $x~=10$ & $y==6$
+- $x==6$ & $y==10$
+
+
+# Special Values in MATLAB
+There are some special values in MATLAB that you should not use as variables names (if you can avoid it). 
+
+**Exercise 2.** Type the following variable names into the MATLAB command window:
+- pi
+- i, j
+- realmax
+- realmin
+- intmax
+- intmin
+- Inf
+- NaN (you will come across NaN in the final exercise)
+
+
+# Writing Output to a Data file
+
+**Exercise 3.** For $x=1:1:50$, find $\log_{10}(x)$ and output the results to a data file in the format shown below, using tabs to 
+separate between the columns.
+
+| $x$ | $log_{10}(x)$  |
+|-----|----------------|
+| 1   | $log_{10}(1)$  |
+| 2   | $log_{10}(2)$  |
+| ... | ...            |
+| 49  | $log_{10}(49)$ |
+| 50  | $log_{10}(50)$ |
+
+You may find it useful to use the following MATLAB functions: fullfile, fopen and fprintf.
+
+# Combining Data from Two Sources
+
+**Final Exercise.** Load the New York City Government Buildings Energy Usage (2015) dataset (data1: 'nyc_building_energy_usage.csv') into MATLAB using textscan function. Extract the data from the following four columns:
+
+| 2             | 9                  | 10                  | 11        |
+|---------------|--------------------|---------------------|-----------|
+| Building Name | Energy Use (MMBTU) | Latitude (Northing) | Longitude (Easting) |
+
+You will notice that some buildings are missing the coordinates of their location. These missing coordinates are found in a second data file (data2: 'nyc_building_energy_usage_missing_data.csv'). The data in this second file has the following format: 
+
+| 1             | 2                 | 3                 |
+|---------------|-------------------|-------------------|
+| Building Name | Latitude ($\circ N$)| Longitude($\circ W$) |
+
+Use the second data file to populate the missing data points in the original file. Note that the Longitude in data1 and data2 are using a different direction. Using data1 and data2, create a new dataset that has the following format:
+
+| 1             | 2                   | 3                   | 4          |
+|---------------|---------------------|---------------------|------------|
+| Building Name | Latitude (Northing) | Longtitude(Easting) | Energy Use |
+
+Try your best to get this exercise done in time for the next MATLAB tutorial. We will use this dataset next time to learn how to create a map of energy usage by goverment buildings in New York City.
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>

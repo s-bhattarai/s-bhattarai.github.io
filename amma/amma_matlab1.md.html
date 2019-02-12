@@ -1,48 +1,81 @@
-**Programming with MATLAB for Advanced Mathematical Modelling & Analysis**
-	S. Bhattarai
+**Programming with MATLAB for BARC0130: Advanced Mathematical Modelling & Analysis**
+	*Term 1, Academic Year 18/19* -- [University College London](https://www.ucl.ac.uk)
+	[Dr. Santosh Bhattarai](https://s-bhattarai.github.io), <s.bhattarai@ucl.ac.uk>
 
-# Review of Fundamentals
+# Why loading data files using MATLAB code is an awesome skill to have?
 
-We start by reviewing some fundamental topics from Year 1, in order to get 
-everybody back up to speed as quickly as possible. 
+In essence, all computer programs require inputs which trigger processes that then produce outputs[^general_motivation]. If you want to build a program (e.g. a MATLAB script) that can accept inputs from multiple sources (e.g. spreadsheets recording student information such as attendance, performance in exams, etc.), and uses those inputs to do something useful (e.g. to investigate the impact of attendance on student performance), and then finally produce a useful output (e.g. useful models and insightful graphics, statistics, output data files), then you need to load the information contained in those inputs into a data structure (e.g. a MATLAB array[^matlab_array]) in order to put that data to use within the process (or algorithm) that you have developed and implemented in your code. The inputs to computer programs can be provided in many different ways: mouse clicks, key strokes, numbers hard-coded into the program code, etc. Often, the input is information that is stored in data files which could be in the form of text, images (i.e a rectangular array of pixel values), videos, sensor measurements logs, and so on. Therefore, the ability to extract the information stored in data files is an absolutely critical aspect of computer programming. But the point of these tutorials is not really about learning to load and process data using MATLAB, which a very useful skill to have nevertheless. The important point is that, with practice and broad reflection, you may gain some deeper insight about the flow of informaton in the modern world, even beyond computer systems. 
 
-## Matlab Environment
+************************************************
+* +-------+      +-----------+      +--------+
+* | Input +----->+  Process  +----->+ Output |
+* +---+---+      |(Algorithm)|      +---+----+
+*     ^          +-----------+          |
+*     |                                 |
+*     +---------------------------------+
+*                   Feedback
+************************************************
+[Figure [alg_design]: Fundamental algorithm design pattern. Here, the arrows indicate the flow of information. At the broadest level, the way in which all systems (e.g. mathematical functions, software programs, people, cities and so on) operate can be explained in this way.]
 
-In the figure [frMatlabIDE] below:
+# On the merits of organising your personal code library
 
-![Figure [frMatlabIDE]: Matlab Integrated Development Environment](images/matlab_ide_screenshot.png)
+Writing a working program that does something useful for you takes time. As a professional working in design or engineering, you may find yourself writing such a program for one of your projects. Usually, in such cases, you will be creating something new, in order to solve a problem for which a solution does not already exist. Otherwise, there would be no need to write your own program. Therefore, your programs (i.e. your MATLAB scripts and functions) have the potential to be incredibly valuable, to you, and to others -- but only if your program is well documented (e.g. comments, user manual) and systematically organised. 
 
-## Scripts
+One of the advantages of having a systematic method for organising your code and associated files (e.g. input data) is that it will be much easier for your to revisit, revise, reuse and repurpose your code for different applications. The codebase that makes up the world's most powerful systems (think Google, Facebook etc.) are modified and developed upon every single day. Today's Google might be composed of over [two billion lines of code](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/), but remember that it all started with one line of code. Create a habit of periodically reviewing the way in which you organise your code, making small, incremental improvements here or there quite often. If you do this, over time, you will build up a powerful set of tools that will assist you in your professional careers[^creative_work]. 
 
-## Functions
 
-## The 'plot' command
+[^general_motivation]: In fact, this idea can be generalised further to describe all algorithmic processes. For example, consider the process that leads to the complete construction of a building. It starts with an idea that a building is required, for whatever reason. That requirement gets recorded in a project brief (i.e. the input data) that architects and engineers interpret (i.e. loading in information) and transform into a vision and plan for delivering an actual real-world building (i.e. output).
 
-## Maintaining a re-usable code base
+[^matlab_array]: The default data type in MATLAB is the numeric data array.
 
-# MATLAB data types
+[^creative_work]: Building a program is a creative process. In much the same way that artists and architects can struggle to accept that their creation (e.g. painting or building) is ever final or complete, programmers (a.k.a. software engineers, software architects) tend to be critical of their own projects, always considering it to be an imperfect realisation of the original, idealised concept. 
 
-# Loading Data
 
-Explore in-built Matlab functionality - does Maltab already provide tools for processing datasets you're studying?
-[Ways to Import Text Files](https://www.mathworks.com/help/matlab/import_export/ways-to-import-text-files.html)
+## Guidance on commenting your code
+When you write comments in your code, you should consider two groups: users and developers. Users of your program are interested in what the code does and how to use it, but do not necesarily care about how it works. Information for users should be included at the beginning of your files, in comment blocks. The user should be able to use the program with this information onlt. You should also include your name, the date when the file was last modified and some way to contact you. A developer in interested in everything that the user is interested in, and also in how it works. In the main implementation block of your program, especially in those places where it is not immediately obvious what the code is doing, you should provide a description. Remember, the developer may be yourself 6 months from now. So do yourself a favour. 
 
-- CSV (other delimiters)
-- text files 
-- Importing Data Formatted in Excel
-- JSON
+## Organising your code
+Please spend some time organising your code. I assure you this will be time well spent. There is no right or wrong way to do this, but it is important to have a system that is logical. You can start this process by thinking carefully about how you assign names to files (data files, script files, output files etc.) and how you organise your files in terms of directory structure. For this module, I advise you to follow the guidance below.
 
-If not, try writing your own data file reader - using textscan. Reading files line by line and parsing.
+Avoid whitespace in filenames
+:	Also avoid them in folder names if you can. Instead of "my data file 1.xlsx" use "my_data_file_1.xlsx". Add some systematic tag in the filename (e.g. mt1_taylor_series.m, mt2_fourier_series_1.m, mt3_fourier_series3.m, etc.) that will give you some information about the file content. In the case mt[i]_[topic].m indicates that the file is a MATLAB script for the tutorial on week [i] on the given [topic]. 
 
-# Organising Data
+Add a systematic tag in all filenames
+:	Choose tags in the filename (e.g. mt1_taylor_series.m, mt2_fourier_series_1.m, mt3_fourier_series3.m, etc.) that will give you some information about the file content. In the case mt[i]_[topic].m indicates that the file is a MATLAB script for the tutorial on week [i] on the given [topic]. There are two benefits of this. First, all files of the same type will be located together in the MATLAB Current Folder section, making navigation between files easier. Second, a logical and systematic file naming convention, e.g. "data1.csv, data2.csv, data3.csv etc." will set you up to automate tasks such as loading in data from multiple files from a MATLAB script. 
 
-Is it because the last section doesn't have a 
+Directory structure
+:	Establish a MATLAB directory that will be the root directory for all the work that you will do for this module. Make sure that you know the absolute path of this MATLAB root directory. All MATLAB scripts and functions that you write for this module belong in this directory. Within your MATLAB directory, create a folder called 'datasets'. All data files that you are given for this module should be put into this directory. Create another directory in your MATLAB directory called 'ouput'. If you are not sure whether you are currently working from your MATLAB root directory, type "'pwd'" in the Command Window and check whether the output matches your MATLAB directory.
 
-# Exploratory Data Analysis
 
-Finally starting to get into it now. 
+# MATLAB Data Types
+
+As shown in Figure [frMatlab_data_types], the fundametal data type in MATLAB is an array (or matrix). MATLAB stands for MATrix LABoratory so this should come as no suprise. The are six different types of MATLAB arrays (numeric, logical, char, cell, struct and table) that are differentiated by the data types they can store. For example, a logical array is a MATLAB array where each element can hold a value of $1$ or $0$, i.e. True or False, respectively. 
+
+![Figure [frMatlab_data_types]: The fundamental data type in MATLAB is an array (or matrix). There are six different types of MATLAB array (numeric, logical, char, cell, struct and table) that are able to hold different types of data.](images/fundamental_classes.png)
+
+The MATLAB array types that we have encoutered so far in this modules are listed in Table [tblMatlab_data]. Mostly,we will work with numeric arrays, but it important to be aware of the other data types and how to use them. In particular, note the difference in syntax for assignment and for accessing elements between the Numeric, Char and Cell arrays shown in Table [tblMatlab_data]. 
+
+| MATLAB Array Types |                                       Holds                                       |  Assignment (Empty Array) |  Access element  in row i, col j |
+|:------------------:|:---------------------------------------------------------------------------------:|:-------------------------:|:--------------------------------:|
+|       Numeric      | [double,single,int,uint](https://uk.mathworks.com/help/matlab/numeric-types.html) |           A = ()          |              A(i,j)              |
+|        Char        |         [7-bit ascii](https://uk.mathworks.com/help/matlab/ref/char.html)         |           A = ''          |              A(i,j)              |
+|        Cell        |       [any data type](https://uk.mathworks.com/help/matlab/cell-arrays.html)      |           A = {}          |              A{i,j}              |
+[Table [tblMatlab_data]: The MATLAB array types that we have used in the module so far.]
+
+# Loading Data from Files Into MATLAB
+
+There are many methods for loading data from files of various types into MATLAB. You should spend some time exploring the [in-built MATLAB functions](https://www.mathworks.com/help/matlab/import_export/ways-to-import-text-files.html) that exist for this purpose. In this module, we will consider the following cases, building up in complexity as we go along: 
+
+- Numeric Data from an Excel spreadsheet: [xlsread](https://uk.mathworks.com/help/matlab/ref/xlsread.html) - covered in MATLAB Tutorial 2
+- Numeric Data from a Text file: [csvread](https://uk.mathworks.com/help/matlab/ref/csvread.html?searchHighlight=csvread&s_tid=doc_srchtitle), [dlmread](https://uk.mathworks.com/help/matlab/ref/dlmread.html)
+- Mixed Data (numeric and text) from a formatted text file with metadata headerlines [textscan](https://uk.mathworks.com/help/matlab/ref/textscan.html)
+- Mixed Data from a text file, parsing the file line by line (brute force method): [fgets](https://uk.mathworks.com/help/matlab/ref/fgets.html)
+
 
 
 # References
+
+[#Tufte90]: E. R. Tufte (1990). Envisioning Information. Graphics Press LLC.
+
 
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>

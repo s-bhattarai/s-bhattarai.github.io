@@ -1,0 +1,67 @@
+**Programming with MATLAB for BARC0130: Advanced Mathematical Modelling & Analysis**
+	**Week 4: Exercise Sheet**
+
+This worksheet is designed to develop your understanding of the core programming concepts that we have explored in the MATLAB Tutorials for BARC01030: Advanced Mathematical Modelling & Analysis (18/19) so far. Work through these questions in class, and ask for help if any of the concepts are not clear to you. Some of the questions are open-ended and conceptual, intended to stimulate discussion and further enquiry. Others will test your knowledge of MATLAB and help guide you to the areas that you need to focus on to develop a deeper understanding of programming. 
+
+
+# Programming with MATLAB: Core Concepts
+
+## Application Programming
+- What is an algorithm?
+- What do we mean by a program or application?
+
+## Directories
+- Every time you start a new MATLAB project, you must be aware of the MATLAB root directory for that project. This the folder that you should be in when you run the main script or function for that project. What is the MATLAB directory for your project?
+- Which MATLAB command will print your current working directory?
+
+## Variable (or Data) Types in MATLAB
+
+### Array Types
+ - List all of the variable types that can be held in a MATLAB numeric array.
+ - List all of the variable types that can be held in a MATLAB bool array. 
+ - Using MATLAB, identify the 33rd elemnt of the character array: 'Maths on Mondays is awesome - the highlight of the week!'
+ - What are the variable types that can be held in a cell array?
+
+### Scalar Types (object handles)
+ - The only variable types that have scalar, as opposed to array (or matrix) properties in MATLAB, are variables known as object handles. List all of the object handles that you have encountered so far. Describe what they do.  
+
+## Loading Input Data from Files
+ - The MATLAB function xlsread can be used to load numeric data from an Excel (or Excel-compatible) spreadsheet file. What function would you use if the Excel spreadsheet file contained a combinations of numeric data and character strings?
+
+### Locating Data Files
+ - Suppose that the program you are developing (i.e. MATLAB script or function) will seek data from a file that is in some directory (which need not be the same directory as the program itself) on your computer. What MATLAB function will you use to define the location of that data file?
+
+### Metadata and Data File Headers
+- What is metadata?
+- Give two examples of metadata for two different types of data file (e.g. an image file, video file, spreadsheet, text, etc.). 
+
+## Control Statements
+
+### For Loops
+- Create the MATLAB character array: 'I love Maths!'. Use a for loop to loop to output each individual element of the character array one by one. Stop the loop once it reaches the character 'M'.
+
+### If-Else 
+- Create a MATLAB program that uses a for loop combined with an if-else if-else statement to output the character string "Fizz" for every multiple of 3, "Buzz" every multiple of 7, and "Fizz-Buzz" for every multiple of both 3 and 7. Test your program from 1 to 100. 
+
+
+# Investigating the impact of attendance on performance
+For this section, you will be working with the MATLAB script "mt2_att_v_score.m" and the data file "attendance_vs_score.xlsx". Read through the script carefully, as the purpose of each line of code is explained in the comments. Once you have read through the script once, do the following exercises. 
+
+- Run the script "mt2_att_v_score" from the Command Window (don't use the Run Button). If this gives an error, raise you hand to ask one of the tutors for support. 
+- Consider the output of the command "plot(attendance, score)" on line 65. Why is the plot function inappropriate in this case?
+- Consider the figure produced as the output of lines 74-78. Would another choice of axes limits be a better choice in this context? If yes, change the axes limits to reflect this. 
+- Improve upon the analysis of the data with appropriate summary statistics and provide your own interpretation of the results, including a critical analysis of the limitations of the analysis. For example, you may wish to cosnider calculating: the residuals ($y_{data}-y_{model}$), the standard deviation of the residuals, the uncertainty in the slope and the intercept (HINT: You have done this type of data modelling in Year 1). You may wish to add additional annotations onto the scatter plot figure that will serve to highlight the key conclusions of the analysis.
+- Convert this MATLAB script into a MATLAB function that will take as input a MATLAB char array that indicates the absolute location of the 'attendance_vs_score.xlsx' and will produce as ouput the final version of the scatter plot figure, that will be saved as PNG into a separate folder called 'output' that in one level above the directory from which the MATLAB script is run. 
+
+
+# Exploring the world's 99 tallest buildings with data
+For this section, you will be working with the MATLAB script "mt3_tall_buildings.m" and the data file "tallest_99_buildings_aug2018.csv". Read through the script carefully, as the purpose of each line of code is explained in the comments. Once you have read through the script once, do the following exercises.
+
+- Run the script "mt3_tall_buildings" from the Command Window (don't use the Run Button). If this gives an error, raise you hand to ask one of the tutors for support.
+- Modify the script to investigate the relationship between the year of completion and the height of the building.
+
+# Energy Usage of Buildings
+
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
