@@ -6,107 +6,9 @@
     <description>Recent content in Santosh Bhattarai on Santosh Bhattarai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 08 Jun 2018 11:20:22 +0100</lastBuildDate>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Course materials</title>
-      <link>https://s-bhattarai.github.io/teaching/teaching-home/</link>
-      <pubDate>Fri, 08 Jun 2018 11:20:22 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/teaching-home/</guid>
-      <description>&lt;p&gt;Other original materials&lt;/p&gt;
-
-&lt;p&gt;Links&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mathematical Modelling &amp; Analysis (MMA)</title>
-      <link>https://s-bhattarai.github.io/teaching/mma/mma-home/</link>
-      <pubDate>Wed, 13 Jun 2018 17:23:28 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/mma/mma-home/</guid>
-      <description>&lt;p&gt;In this Year 1 Term 1 module, students develop their understanding
-of a range of mathematical concepts and are taught to apply their knowledge
-to solve a variety of problems across a range of engineering disciplines using
-Matlab and Excel. Topics covered include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dimensional Analysis&lt;/li&gt;
-&lt;li&gt;Vectors&lt;/li&gt;
-&lt;li&gt;Linear Algebra&lt;/li&gt;
-&lt;li&gt;Complex Numbers&lt;/li&gt;
-&lt;li&gt;Calculus (Differentiation &amp;amp; Integration)&lt;/li&gt;
-&lt;li&gt;Ordinary Differential Equations&lt;/li&gt;
-&lt;li&gt;Probability&lt;/li&gt;
-&lt;li&gt;Statistical Analysis&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Click &lt;a href=&#34;https://s-bhattarai.github.io/engs103p_induction_week_mead.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; for the September 2017 induction week presentation for the module.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://s-bhattarai.github.io/teaching/mma/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/mma/</guid>
-      <description>&lt;p&gt;This is an example of using the &lt;em&gt;custom&lt;/em&gt; widget to create your own homepage section.&lt;/p&gt;
-
-&lt;p&gt;To remove this section, either delete &lt;code&gt;content/home/teaching.md&lt;/code&gt; or edit the frontmatter of the file to deactivate the widget by setting &lt;code&gt;active = false&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If this works, then I understand how to use widgets better now, finally.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Advanced Mathematical Modelling &amp; Analysis</title>
-      <link>https://s-bhattarai.github.io/teaching/amma/amma-home/</link>
-      <pubDate>Wed, 13 Jun 2018 17:26:57 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/amma/amma-home/</guid>
-      <description>&lt;p&gt;Click &lt;a href=&#34;https://s-bhattarai.github.io/amma/amma_course_description.md.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; for the 2018 module description.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GNSS for Surveying</title>
-      <link>https://s-bhattarai.github.io/teaching/gnss_surveying/gnss_surveying-home/</link>
-      <pubDate>Wed, 13 Jun 2018 17:25:25 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/gnss_surveying/gnss_surveying-home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Environmental Building Design Scenario</title>
-      <link>https://s-bhattarai.github.io/teaching/ebd/ebd-home/</link>
-      <pubDate>Wed, 13 Jun 2018 17:30:07 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/ebd/ebd-home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://s-bhattarai.github.io/teaching/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Induction Week</title>
-      <link>https://s-bhattarai.github.io/teaching/mma/induction-week/</link>
-      <pubDate>Fri, 13 Jul 2018 14:07:42 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/teaching/mma/induction-week/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Satellite clock behaviour modelling</title>
@@ -130,64 +32,21 @@ focuses on aspects of the latter.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Satellite clock time offset prediction in Global Navigation Satellite Systems</title>
-      <link>https://s-bhattarai.github.io/publication/phd-thesis/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0100</pubDate>
+      <title>Satellite clock time offset prediction in global navigation satellite systems</title>
+      <link>https://s-bhattarai.github.io/publication/phd_thesis/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://s-bhattarai.github.io/publication/phd-thesis/</guid>
-      <description>&lt;p&gt;In an operational sense, satellite clock time offset prediction (SCTOP)
-is a fundamental requirement in global navigation satellite systems (GNSS)
-technology. SCTOP uncertainty is a significant component of the
-uncertainty budget of the basic GNSS pseudorange measurements
-used in standard (i.e not
-high-precision), single-receiver applications. In real-time, this prediction
-uncertainty contributes directly to GNSS-based positioning, navigation and
-timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked
-to satellite clock predictability. Now, satellite clock predictability is
-affected by two factors: (i) the clock itself (i.e. the oscillator, the
-frequency standard etc.) and (ii) the prediction algorithm. This research
-focuses on aspects of the latter.&lt;/p&gt;
-
-&lt;p&gt;Using satellite clock data&amp;mdash;spanning across several years, corresponding
-to multiple systems (GPS and GLONASS) and derived from real measurements&amp;mdash;this
-thesis first presents the results of a detailed study into the characteristics
-of GNSS satellite clocks. This leads onto the development of strategies for
-modelling and estimating the time-offset of those clocks from system
-time better, with the final aim of predicting those offsets better. The
-satellite clock prediction scheme of the International GNSS Service (IGS) is
-analysed, and the results of this prediction scheme are used to evaluate the
-performance of new methods developed herein. The research presented in this
-thesis makes a contribution to knowledge in each of the areas of
-characterisation, modelling and prediction of GNSS satellite clocks.&lt;/p&gt;
-
-&lt;p&gt;Regarding characterisation of GNSS satellite clocks, the space-borne clocks
-of GPS and GLONASS are studied. In terms of frequency stability&amp;mdash;and thus
-predictability&amp;mdash;it is generally the case that the GPS clocks out-perform
-GLONASS clocks at prediction lengths ranging from several minutes up to
-one day ahead. There are three features in the GPS clocks&amp;mdash;linear frequency
-drift, periodic signals and and complex underlying noise processes&amp;mdash;that are not
-observable in the GLONASS clocks. The standard clock model does not capture these
-features. This study shows that better prediction accuracy can be obtained
-by an extension to the standard clock model.&lt;/p&gt;
-
-&lt;p&gt;The results of the characterisation and modelling study are combined in
-a Kalman filter framework, set up to output satellite clock predictions at a
-range of prediction intervals. In this part of the study, only GPS satellite clocks
-are considered. In most, but not all cases, the developed prediction
-method outperforms the IGS prediction scheme, by between
-$10\%$ to $30\%$. The magnitude of the improvement is mainly dependent
-upon clock type.&lt;/p&gt;
-</description>
+      <guid>https://s-bhattarai.github.io/publication/phd_thesis/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</title>
-      <link>https://s-bhattarai.github.io/publication/eftf2012/</link>
-      <pubDate>Sun, 01 Apr 2012 00:00:00 +0100</pubDate>
+      <link>https://s-bhattarai.github.io/publication/eftf12/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
       
-      <guid>https://s-bhattarai.github.io/publication/eftf2012/</guid>
-      <description>&lt;p&gt;An enhanced deterministic model along with a stochastic model for describing clock noise is used to compute predictions of the time-offset of individual GPS satellites from the IGS rapid timescale. These are determined with significantly lower prediction uncertainties than may currently be obtained using the IGS ultra-rapid predictions. At prediction length of one day IGS prediction errors are commonly of the order of several ns for all GPS satellite clocks. In comparison the new techniques offers to limit prediction errors at the order of 1 ns for prediction lengths of one day in the newer generation Block IIR and IIF satellites. The factors contributing to the uncertainties in the IGS predictions are discussed. The application of a Kalman filter based prediction algorithm is shown to produce close to optimal predictions.&lt;/p&gt;
-</description>
+      <guid>https://s-bhattarai.github.io/publication/eftf12/</guid>
+      <description></description>
     </item>
     
   </channel>

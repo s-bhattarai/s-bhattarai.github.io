@@ -6,19 +6,19 @@
     <description>Recent content in 7 on Santosh Bhattarai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Santosh Bhattarai</copyright>
-    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0100</lastBuildDate>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Wed, 01 Apr 2015 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Satellite clock time offset prediction in Global Navigation Satellite Systems</title>
-      <link>https://s-bhattarai.github.io/publication/phd-thesis/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0100</pubDate>
+      <title>Satellite clock time offset prediction in global navigation satellite systems</title>
+      <link>https://s-bhattarai.github.io/publication/phd_thesis/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://s-bhattarai.github.io/publication/phd-thesis/</guid>
-      <description>In an operational sense, satellite clock time offset prediction (SCTOP) is a fundamental requirement in global navigation satellite systems (GNSS) technology. SCTOP uncertainty is a significant component of the uncertainty budget of the basic GNSS pseudorange measurements used in standard (i.e not high-precision), single-receiver applications. In real-time, this prediction uncertainty contributes directly to GNSS-based positioning, navigation and timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked to satellite clock predictability.</description>
+      <guid>https://s-bhattarai.github.io/publication/phd_thesis/</guid>
+      <description></description>
     </item>
     
   </channel>

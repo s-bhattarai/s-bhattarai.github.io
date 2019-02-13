@@ -6,28 +6,28 @@
     <description>Recent content in Publications on Santosh Bhattarai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Santosh Bhattarai</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Mon, 04 Feb 2019 22:42:51 +0000</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Satellite clock time offset prediction in Global Navigation Satellite Systems</title>
-      <link>https://s-bhattarai.github.io/publication/phd-thesis/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0100</pubDate>
+      <title>Satellite clock time offset prediction in global navigation satellite systems</title>
+      <link>https://s-bhattarai.github.io/publication/phd_thesis/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
       
-      <guid>https://s-bhattarai.github.io/publication/phd-thesis/</guid>
-      <description>In an operational sense, satellite clock time offset prediction (SCTOP) is a fundamental requirement in global navigation satellite systems (GNSS) technology. SCTOP uncertainty is a significant component of the uncertainty budget of the basic GNSS pseudorange measurements used in standard (i.e not high-precision), single-receiver applications. In real-time, this prediction uncertainty contributes directly to GNSS-based positioning, navigation and timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked to satellite clock predictability.</description>
+      <guid>https://s-bhattarai.github.io/publication/phd_thesis/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</title>
-      <link>https://s-bhattarai.github.io/publication/eftf2012/</link>
-      <pubDate>Sun, 01 Apr 2012 00:00:00 +0100</pubDate>
+      <link>https://s-bhattarai.github.io/publication/eftf12/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
       
-      <guid>https://s-bhattarai.github.io/publication/eftf2012/</guid>
-      <description>An enhanced deterministic model along with a stochastic model for describing clock noise is used to compute predictions of the time-offset of individual GPS satellites from the IGS rapid timescale. These are determined with significantly lower prediction uncertainties than may currently be obtained using the IGS ultra-rapid predictions. At prediction length of one day IGS prediction errors are commonly of the order of several ns for all GPS satellite clocks. In comparison the new techniques offers to limit prediction errors at the order of 1 ns for prediction lengths of one day in the newer generation Block IIR and IIF satellites.</description>
+      <guid>https://s-bhattarai.github.io/publication/eftf12/</guid>
+      <description></description>
     </item>
     
   </channel>

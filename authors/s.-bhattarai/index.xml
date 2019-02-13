@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. Bhattarai on Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
+    <description>Recent content in S. Bhattarai on Santosh Bhattarai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Wed, 01 Apr 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://s-bhattarai.github.io/authors/s.-bhattarai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Satellite clock time offset prediction in global navigation satellite systems</title>
+      <link>https://s-bhattarai.github.io/publication/phd_thesis/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</title>
+      <link>https://s-bhattarai.github.io/publication/eftf12/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/eftf12/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

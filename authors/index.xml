@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/authors/</link>
+    <description>Recent content in Authors on Santosh Bhattarai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    
+	<atom:link href="https://s-bhattarai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>J. Davis</title>
+      <link>https://s-bhattarai.github.io/authors/j.-davis/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/j.-davis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Ziebart</title>
+      <link>https://s-bhattarai.github.io/authors/m.-ziebart/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/m.-ziebart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Bhattarai</title>
+      <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/s.-bhattarai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
