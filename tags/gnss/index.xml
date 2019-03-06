@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Santosh Bhattarai</title>
-    <link>https://s-bhattarai.github.io/publication_types/2/</link>
-    <description>Recent content in 2 on Santosh Bhattarai</description>
+    <title>gnss on Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/tags/gnss/</link>
+    <description>Recent content in gnss on Santosh Bhattarai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://s-bhattarai.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://s-bhattarai.github.io/tags/gnss/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Receiver Clock Jump and Cycle Slip Correction Algorithm for Single-Frequency GNSS</title>
-      <link>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>

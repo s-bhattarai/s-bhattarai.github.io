@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -30,10 +28,10 @@
   
     
   
-  <meta name="description" content="Lecturer in Space Geodesy &amp; Navigation">
+  <meta name="description" content="Accurate Solar Radiation Pressure (SRP) modelling is critical for correctly describing the dynamics of satellites. A shadow function is a unitless quantity varying between 0 and 1 to scale the solar radiation flux at a satellite’s location during eclipses. Errors in modelling shadow function lead to inaccuracy in SRP that degrades the orbit quality. Shadow function modelling requires solutions to a geometrical problem (Earth’s oblateness) and a physical problem (atmospheric effects). This study presents a new shadow function model (PPM atm) which uses a perspective projection based approach to solve the geometrical problem rigorously and a linear function to describe the reduction of solar radiation flux due to atmospheric effects. GRACE (Gravity Recovery And Climate Experiment ) satellites carry accelerometers that record variations of non-conservative forces, which reveal the variations of shadow function during eclipses. In this study, the PPM atm is validated using accelerometer observations of the GRACE-A satellite. Test results show that the PPM atm is closer to the variations in accelerometer observations than the widely used SECM (Spherical Earth Conical Model). Taking the accelerometer observations derived shadow function as the “truth”, the relative error in PPM atm is - 0.79 % while the SECM 11.07%. The influence of the PPM atm is also shown in orbit prediction for Galileo satellites. Compared with the SECM, the PPM atm can reduce the radial orbit error RMS by 5.6 cm over a 7-day prediction. The impacts of the errors in shadow function modelling on the orbit remain to be systematic and should be mitigated in long-term orbit prediction.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://s-bhattarai.github.io/publication_types/2/">
+  <link rel="alternate" hreflang="en-us" href="https://s-bhattarai.github.io/publication/shadow_fn/">
 
   
 
@@ -113,15 +111,15 @@
   
 
   
-  <link rel="alternate" href="https://s-bhattarai.github.io/publication_types/2/index.xml" type="application/rss+xml" title="Santosh Bhattarai">
-  <link rel="feed" href="https://s-bhattarai.github.io/publication_types/2/index.xml" type="application/rss+xml" title="Santosh Bhattarai">
+  <link rel="alternate" href="https://s-bhattarai.github.io/index.xml" type="application/rss+xml" title="Santosh Bhattarai">
+  <link rel="feed" href="https://s-bhattarai.github.io/index.xml" type="application/rss+xml" title="Santosh Bhattarai">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://s-bhattarai.github.io/publication_types/2/">
+  <link rel="canonical" href="https://s-bhattarai.github.io/publication/shadow_fn/">
 
   
   
@@ -133,19 +131,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Santosh Bhattarai">
-  <meta property="og:url" content="https://s-bhattarai.github.io/publication_types/2/">
-  <meta property="og:title" content="2 | Santosh Bhattarai">
-  <meta property="og:description" content="Lecturer in Space Geodesy &amp; Navigation"><meta property="og:image" content="https://s-bhattarai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://s-bhattarai.github.io/publication/shadow_fn/">
+  <meta property="og:title" content="A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse | Santosh Bhattarai">
+  <meta property="og:description" content="Accurate Solar Radiation Pressure (SRP) modelling is critical for correctly describing the dynamics of satellites. A shadow function is a unitless quantity varying between 0 and 1 to scale the solar radiation flux at a satellite’s location during eclipses. Errors in modelling shadow function lead to inaccuracy in SRP that degrades the orbit quality. Shadow function modelling requires solutions to a geometrical problem (Earth’s oblateness) and a physical problem (atmospheric effects). This study presents a new shadow function model (PPM atm) which uses a perspective projection based approach to solve the geometrical problem rigorously and a linear function to describe the reduction of solar radiation flux due to atmospheric effects. GRACE (Gravity Recovery And Climate Experiment ) satellites carry accelerometers that record variations of non-conservative forces, which reveal the variations of shadow function during eclipses. In this study, the PPM atm is validated using accelerometer observations of the GRACE-A satellite. Test results show that the PPM atm is closer to the variations in accelerometer observations than the widely used SECM (Spherical Earth Conical Model). Taking the accelerometer observations derived shadow function as the “truth”, the relative error in PPM atm is - 0.79 % while the SECM 11.07%. The influence of the PPM atm is also shown in orbit prediction for Galileo satellites. Compared with the SECM, the PPM atm can reduce the radial orbit error RMS by 5.6 cm over a 7-day prediction. The impacts of the errors in shadow function modelling on the orbit remain to be systematic and should be mitigated in long-term orbit prediction."><meta property="og:image" content="https://s-bhattarai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-02-19T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-02-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-02-01T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>2 | Santosh Bhattarai</title>
+  <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse | Santosh Bhattarai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -342,8 +342,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -359,56 +360,229 @@
   
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-02-01 00:00:00 &#43;0000 GMT" itemprop="datePublished">
+<meta content="2019-02-01 00:00:00 &#43;0000 GMT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/">Z. Li, M. Ziebart, S. Bhattarai, D. Harrison</a></span></span>
+  
+
+
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>February 2019</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.sciencedirect.com/science/article/pii/S0273117718307968?via%3Dihub" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1016/j.asr.2018.10.027" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Accurate Solar Radiation Pressure (SRP) modelling is critical for correctly describing the dynamics of satellites. A shadow function is a unitless quantity varying between 0 and 1 to scale the solar radiation flux at a satellite’s location during eclipses. Errors in modelling shadow function lead to inaccuracy in SRP that degrades the orbit quality. Shadow function modelling requires solutions to a geometrical problem (Earth’s oblateness) and a physical problem (atmospheric effects). This study presents a new shadow function model (PPM atm) which uses a perspective projection based approach to solve the geometrical problem rigorously and a linear function to describe the reduction of solar radiation flux due to atmospheric effects. GRACE (Gravity Recovery And Climate Experiment ) satellites carry accelerometers that record variations of non-conservative forces, which reveal the variations of shadow function during eclipses. In this study, the PPM atm is validated using accelerometer observations of the GRACE-A satellite. Test results show that the PPM atm is closer to the variations in accelerometer observations than the widely used SECM (Spherical Earth Conical Model). Taking the accelerometer observations derived shadow function as the “truth”, the relative error in PPM atm is - 0.79 % while the SECM 11.07%. The influence of the PPM atm is also shown in orbit prediction for Galileo satellites. Compared with the SECM, the PPM atm can reduce the radial orbit error RMS by 5.6 cm over a 7-day prediction. The impacts of the errors in shadow function modelling on the orbit remain to be systematic and should be mitigated in long-term orbit prediction.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Advances in Space Research</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/radiation-force-models/">radiation force models</a>
+  
+  <a class="badge badge-light" href="/tags/pod/">pod</a>
+  
+  <a class="badge badge-light" href="/tags/gnss/">gnss</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">2</h1>
-
   
 
-  
+
+
+
+
+
+
+
+  </div>
 </div>
 
 
 
-<div class="universal-wrapper">
-  
-
-  
-  
-  <div>
-    <h2><a href="/publication/clk_jmp_cycle_slips/">Receiver Clock Jump and Cycle Slip Correction Algorithm for Single-Frequency GNSS</a></h2>
-    <div class="article-style">
-      
-      We introduce a simple single-band receiver clock jump and cycle slip (CJCS) detection and correction algorithm suitable for a standalone single-frequency Global Navigation Satellite System (GNSS) receiver. The real-time algorithm involves using an …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/shadow_fn/">A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</a></h2>
-    <div class="article-style">
-      
-      Accurate Solar Radiation Pressure (SRP) modelling is critical for correctly describing the dynamics of satellites. A shadow function is a unitless quantity varying between 0 and 1 to scale the solar radiation flux at a satellite’s location during …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/fast_srp/">Fast solar radiation pressure modelling with ray tracing and multiple reflections</a></h2>
-    <div class="article-style">
-      
-      Physics based SRP (Solar Radiation Pressure) models using ray tracing methods are powerful tools when modelling the forces on complex real world space vehicles. Currently high resolution (1 mm) ray tracing with secondary intersections is done on high …
-      
-    </div>
-  </div>
-  
-
-  
-
-</div>
 <div class="container">
   <footer class="site-footer">
   
@@ -464,6 +638,9 @@
 
     
     
+    
+    <script src="/js/mathjax-config.js"></script>
+    
 
     
     
@@ -481,6 +658,8 @@
       
 
       
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 
@@ -557,6 +736,4 @@
 
   </body>
 </html>
-
-
 

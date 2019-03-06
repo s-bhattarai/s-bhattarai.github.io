@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="An enhanced deterministic model along with a stochastic model for describing clock noise is used to compute predictions of the time-offset of individual GPS satellites from the IGS rapid timescale. These are determined with significantly lower prediction uncertainties than may currently be obtained using the IGS ultra-rapid predictions. At prediction length of one day IGS prediction errors are commonly of the order of several ns for all GPS satellite clocks. In comparison the new techniques offer to limit prediction errors at the order of 1 ns for prediction lengths of one day in the newer generation Block IIR and IIF satellites. The factors contributing to the uncertainties in the IGS predictions are discussed. The application of a Kalman filter based prediction algorithm is shown to produce close to optimal predictions.">
+  <meta name="description" content="Physics based SRP (Solar Radiation Pressure) models using ray tracing methods are powerful tools when modelling the forces on complex real world space vehicles. Currently high resolution (1 mm) ray tracing with secondary intersections is done on high performance computers at UCL (University College London). This study introduces the BVH (Bounding Volume Hierarchy) into the ray tracing approach for physics based SRP modelling and makes it possible to run high resolution analysis on personal computers. The ray tracer is both general and efficient enough to cope with the complex shape of satellites and multiple reflections (three or more, with no upper limit). In this study, the traditional ray tracing technique is introduced in the first place and then the BVH is integrated into the ray tracing. Four aspects of the ray tracer were tested for investigating the performance including runtime, accuracy, the effects of multiple reflections and the effects of pixel array resolution.Test results in runtime on GPS IIR and Galileo IOV (In Orbit Validation) satellites show that the BVH can make the force model computation 30-50 times faster. The ray tracer has an absolute accuracy of several nanonewtons by comparing the test results for spheres and planes with the analytical computations. The multiple reflection effects are investigated both in the intersection number and acceleration on GPS IIR, Galileo IOV and Sentinel-1 spacecraft. Considering the number of intersections, the 3rd reflection can capture 99.12%, 99.14%, and 91.34% of the total reflections for GPS IIR, Galileo IOV satellite bus and the Sentinel-1 spacecraft respectively. In terms of the multiple reflection effects on the acceleration, the secondary reflection effect for Galileo IOV satellite and Sentinel-1 can reach 0.2 nm/s2 and 0.4 nm/s2 respectively. The error percentage in the accelerations magnitude results show that the 3rd reflection should be considered in order to make it less than 0.035%. The pixel array resolution tests show that the dimensions of the components have to be considered when choosing the spacing of the pixel in order not to miss some components of the satellite in ray tracing. This paper presents the first systematic and quantitative study of the secondary and higher order intersection effects. It shows conclusively the effect is non-negligible for certain classes of misson.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://s-bhattarai.github.io/publication/eftf12/">
+  <link rel="alternate" hreflang="en-us" href="https://s-bhattarai.github.io/publication/fast_srp/">
 
   
 
@@ -119,7 +119,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://s-bhattarai.github.io/publication/eftf12/">
+  <link rel="canonical" href="https://s-bhattarai.github.io/publication/fast_srp/">
 
   
   
@@ -131,21 +131,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Santosh Bhattarai">
-  <meta property="og:url" content="https://s-bhattarai.github.io/publication/eftf12/">
-  <meta property="og:title" content="Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm | Santosh Bhattarai">
-  <meta property="og:description" content="An enhanced deterministic model along with a stochastic model for describing clock noise is used to compute predictions of the time-offset of individual GPS satellites from the IGS rapid timescale. These are determined with significantly lower prediction uncertainties than may currently be obtained using the IGS ultra-rapid predictions. At prediction length of one day IGS prediction errors are commonly of the order of several ns for all GPS satellite clocks. In comparison the new techniques offer to limit prediction errors at the order of 1 ns for prediction lengths of one day in the newer generation Block IIR and IIF satellites. The factors contributing to the uncertainties in the IGS predictions are discussed. The application of a Kalman filter based prediction algorithm is shown to produce close to optimal predictions."><meta property="og:image" content="https://s-bhattarai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://s-bhattarai.github.io/publication/fast_srp/">
+  <meta property="og:title" content="Fast solar radiation pressure modelling with ray tracing and multiple reflections | Santosh Bhattarai">
+  <meta property="og:description" content="Physics based SRP (Solar Radiation Pressure) models using ray tracing methods are powerful tools when modelling the forces on complex real world space vehicles. Currently high resolution (1 mm) ray tracing with secondary intersections is done on high performance computers at UCL (University College London). This study introduces the BVH (Bounding Volume Hierarchy) into the ray tracing approach for physics based SRP modelling and makes it possible to run high resolution analysis on personal computers. The ray tracer is both general and efficient enough to cope with the complex shape of satellites and multiple reflections (three or more, with no upper limit). In this study, the traditional ray tracing technique is introduced in the first place and then the BVH is integrated into the ray tracing. Four aspects of the ray tracer were tested for investigating the performance including runtime, accuracy, the effects of multiple reflections and the effects of pixel array resolution.Test results in runtime on GPS IIR and Galileo IOV (In Orbit Validation) satellites show that the BVH can make the force model computation 30-50 times faster. The ray tracer has an absolute accuracy of several nanonewtons by comparing the test results for spheres and planes with the analytical computations. The multiple reflection effects are investigated both in the intersection number and acceleration on GPS IIR, Galileo IOV and Sentinel-1 spacecraft. Considering the number of intersections, the 3rd reflection can capture 99.12%, 99.14%, and 91.34% of the total reflections for GPS IIR, Galileo IOV satellite bus and the Sentinel-1 spacecraft respectively. In terms of the multiple reflection effects on the acceleration, the secondary reflection effect for Galileo IOV satellite and Sentinel-1 can reach 0.2 nm/s2 and 0.4 nm/s2 respectively. The error percentage in the accelerations magnitude results show that the 3rd reflection should be considered in order to make it less than 0.035%. The pixel array resolution tests show that the dimensions of the components have to be considered when choosing the spacing of the pixel in order not to miss some components of the satellite in ray tracing. This paper presents the first systematic and quantitative study of the secondary and higher order intersection effects. It shows conclusively the effect is non-negligible for certain classes of misson."><meta property="og:image" content="https://s-bhattarai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2012-04-27T00:00:00&#43;01:00">
+  <meta property="article:published_time" content="2018-05-01T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2019-02-13T17:17:42&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-05-01T00:00:00&#43;01:00">
   
 
   
 
-  <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm | Santosh Bhattarai</title>
+  
+
+  <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections | Santosh Bhattarai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -363,7 +363,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</h1>
+  <h1 itemprop="name">Fast solar radiation pressure modelling with ray tracing and multiple reflections</h1>
 
   
 
@@ -372,8 +372,8 @@
 
 
 
-<meta content="2012-04-27 00:00:00 &#43;0100 BST" itemprop="datePublished">
-<meta content="2019-02-13 17:17:42 &#43;0000 GMT" itemprop="dateModified">
+<meta content="2018-05-01 00:00:00 &#43;0100 BST" itemprop="datePublished">
+<meta content="2018-05-01 00:00:00 &#43;0100 BST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -392,21 +392,7 @@
 
       
       
-      <a href="/authors/j.-davis/">J. Davis</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/authors/s.-bhattarai/">S. Bhattarai</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/authors/m.-ziebart/">M. Ziebart</a></span></span>
+      <a href="/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/">Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey</a></span></span>
   
 
 
@@ -421,7 +407,7 @@
     
       
     
-    <time>April 2012</time>
+    <time>May 2018</time>
   </span>
   
 
@@ -473,7 +459,7 @@
   
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://ieeexplore.ieee.org/document/6502355/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.sciencedirect.com/science/article/pii/S0273117718301595?via%3Dihub" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -497,7 +483,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1109/EFTF.2012.6502355" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1016/j.asr.2018.02.019" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -515,7 +501,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">An enhanced deterministic model along with a stochastic model for describing clock noise is used to compute predictions of the time-offset of individual GPS satellites from the IGS rapid timescale. These are determined with significantly lower prediction uncertainties than may currently be obtained using the IGS ultra-rapid predictions. At prediction length of one day IGS prediction errors are commonly of the order of several ns for all GPS satellite clocks. In comparison the new techniques offer to limit prediction errors at the order of 1 ns for prediction lengths of one day in the newer generation Block IIR and IIF satellites. The factors contributing to the uncertainties in the IGS predictions are discussed. The application of a Kalman filter based prediction algorithm is shown to produce close to optimal predictions.</p>
+    <p class="pub-abstract" itemprop="text">Physics based SRP (Solar Radiation Pressure) models using ray tracing methods are powerful tools when modelling the forces on complex real world space vehicles. Currently high resolution (1 mm) ray tracing with secondary intersections is done on high performance computers at UCL (University College London). This study introduces the BVH (Bounding Volume Hierarchy) into the ray tracing approach for physics based SRP modelling and makes it possible to run high resolution analysis on personal computers. The ray tracer is both general and efficient enough to cope with the complex shape of satellites and multiple reflections (three or more, with no upper limit). In this study, the traditional ray tracing technique is introduced in the first place and then the BVH is integrated into the ray tracing. Four aspects of the ray tracer were tested for investigating the performance including runtime, accuracy, the effects of multiple reflections and the effects of pixel array resolution.Test results in runtime on GPS IIR and Galileo IOV (In Orbit Validation) satellites show that the BVH can make the force model computation 30-50 times faster. The ray tracer has an absolute accuracy of several nanonewtons by comparing the test results for spheres and planes with the analytical computations. The multiple reflection effects are investigated both in the intersection number and acceleration on GPS IIR, Galileo IOV and Sentinel-1 spacecraft. Considering the number of intersections, the 3rd reflection can capture 99.12%, 99.14%, and 91.34% of the total reflections for GPS IIR, Galileo IOV satellite bus and the Sentinel-1 spacecraft respectively. In terms of the multiple reflection effects on the acceleration, the secondary reflection effect for Galileo IOV satellite and Sentinel-1 can reach 0.2 nm/s2 and 0.4 nm/s2 respectively. The error percentage in the accelerations magnitude results show that the 3rd reflection should be considered in order to make it less than 0.035%. The pixel array resolution tests show that the dimensions of the components have to be considered when choosing the spacing of the pixel in order not to miss some components of the satellite in ray tracing. This paper presents the first systematic and quantitative study of the secondary and higher order intersection effects. It shows conclusively the effect is non-negligible for certain classes of misson.</p>
     
 
     
@@ -529,8 +515,8 @@
 
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -547,7 +533,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Proceedings of the European Frequency and Time Forum, Gothenburg, Sweden, 2012</em>, IEEE.</div>
+          <div class="col-12 col-md-9">Advances in Space Research</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -561,6 +547,16 @@
 
     
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/radiation-force-models/">radiation force models</a>
+  
+  <a class="badge badge-light" href="/tags/pod/">pod</a>
+  
+  <a class="badge badge-light" href="/tags/gnss/">gnss</a>
+  
+</div>
 
 
 
