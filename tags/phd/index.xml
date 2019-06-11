@@ -18,7 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/project/phd/</guid>
-      <description>In an operational sense, satellite clock time offset prediction (SCTOP) is a fundamental requirement in global navigation satellite systems (GNSS) technology. SCTOP uncertainty is a significant component of the uncertainty budget of the basic GNSS pseudorange measurements used in standard (i.e not high-precision), single-receiver applications. In real-time, this prediction uncertainty contributes directly to GNSS-based positioning, navigation and timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked to satellite clock predictability.</description>
+      <description>Investigating and modelling the behaviour of GNSS satellite clocks on-orbit</description>
     </item>
     
   </channel>

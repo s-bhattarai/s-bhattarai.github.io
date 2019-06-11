@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radiation-force-modelling on Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/tags/radiation-force-modelling/</link>
+    <description>Recent content in radiation-force-modelling on Santosh Bhattarai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://s-bhattarai.github.io/tags/radiation-force-modelling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demonstrating developments in high-fidelity analytical radiation force modelling methods for spacecraft with a new model for GPS IIR/IIR-M</title>
+      <link>https://s-bhattarai.github.io/publication/gpsiir_rfm/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/gpsiir_rfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>
+      <link>https://s-bhattarai.github.io/publication/shadow_fn/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/shadow_fn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections</title>
+      <link>https://s-bhattarai.github.io/publication/fast_srp/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/fast_srp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radiation Force Modelling</title>
+      <link>https://s-bhattarai.github.io/project/satremsens_aqm/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/project/satremsens_aqm/</guid>
+      <description>High-Fidelity, Physics-based Radiation Force Modelling from Earth-orbiting Spacecraft</description>
+    </item>
+    
+    <item>
+      <title>Satellite Remote Sensing for Air Quality Monitoring</title>
+      <link>https://s-bhattarai.github.io/project/radiation_force_modelling/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/project/radiation_force_modelling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

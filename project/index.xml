@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Radiation Force Modelling</title>
+      <link>https://s-bhattarai.github.io/project/satremsens_aqm/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/project/satremsens_aqm/</guid>
+      <description>High-Fidelity, Physics-based Radiation Force Modelling from Earth-orbiting Spacecraft</description>
+    </item>
+    
+    <item>
+      <title>Satellite Remote Sensing for Air Quality Monitoring</title>
+      <link>https://s-bhattarai.github.io/project/radiation_force_modelling/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/project/radiation_force_modelling/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Satellite clock behaviour modelling</title>
@@ -18,7 +36,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/project/phd/</guid>
-      <description>In an operational sense, satellite clock time offset prediction (SCTOP) is a fundamental requirement in global navigation satellite systems (GNSS) technology. SCTOP uncertainty is a significant component of the uncertainty budget of the basic GNSS pseudorange measurements used in standard (i.e not high-precision), single-receiver applications. In real-time, this prediction uncertainty contributes directly to GNSS-based positioning, navigation and timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked to satellite clock predictability.</description>
+      <description>Investigating and modelling the behaviour of GNSS satellite clocks on-orbit</description>
     </item>
     
   </channel>

@@ -7,9 +7,73 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>D. Harrison</title>
+      <link>https://s-bhattarai.github.io/authors/d.-harrison/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/d.-harrison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M. Ziebart</title>
+      <link>https://s-bhattarai.github.io/authors/m.-ziebart/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/m.-ziebart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Allgeier</title>
+      <link>https://s-bhattarai.github.io/authors/s.-allgeier/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/s.-allgeier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Bhattarai</title>
+      <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/s.-bhattarai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Grey</title>
+      <link>https://s-bhattarai.github.io/authors/s.-grey/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/s.-grey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T. Springer</title>
+      <link>https://s-bhattarai.github.io/authors/t.-springer/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/t.-springer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Z. Li</title>
+      <link>https://s-bhattarai.github.io/authors/z.-li/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/z.-li/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>J. A. Momoh</title>
@@ -17,33 +81,6 @@
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://s-bhattarai.github.io/authors/j.-a.-momoh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>J. Davis</title>
-      <link>https://s-bhattarai.github.io/authors/j.-davis/</link>
-      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/authors/j.-davis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>M. Ziebart</title>
-      <link>https://s-bhattarai.github.io/authors/m.-ziebart/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/authors/m.-ziebart/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>S. Bhattarai</title>
-      <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/authors/s.-bhattarai/</guid>
       <description></description>
     </item>
     
@@ -62,6 +99,15 @@
       <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J. Davis</title>
+      <link>https://s-bhattarai.github.io/authors/j.-davis/</link>
+      <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/j.-davis/</guid>
       <description></description>
     </item>
     
