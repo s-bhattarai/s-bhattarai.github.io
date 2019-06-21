@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>UCL Science Center Lecture Series: Geodesy</title>
+  <title>Satellite Geodesy: Surveying the Earth from Orbit</title>
 
   <!-- Fonts -->
   <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
@@ -49,7 +49,7 @@
     <section class="slide">
       <iframe src="iframes_geodesy/sphere-title.html" frameborder="0"></iframe>
       <div class="page-cover">
-        <h1 class="cover-title">Satellite Geodesy<small>Surveying the Earth from Orbit</small></h1>
+        <h1 class="cover-title">Satellite Geodesy:<small>Surveying the Earth from Orbit</small></h1>
       </div>
     </section>
 
@@ -71,95 +71,132 @@
     <!-- Slide 2 -->
     <section class="slide">
       <img class="spotlight" src="images/earth-1.jpg" alt="">
-<div class="temp abs-bc"><span style="color:#dc241f">Geodesy is the science of knowing where things are on Earth and where they are going.</span></div>
+<div class="temp abs-bc"><span style="color:#f0ffff">Geodesy is the science of knowing where things are on Earth and where they are going.</span></div>
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/universe1.jpg" alt="">
-<div class="temp abs-bc"><span style="color:#dc241f">Not where in the Universe.</span></div>
+      <div class="temp abs-bc"><span style="color:#f0ffff">Not where in the Universe.</span></div>
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/multiverse1.jpg" alt="">
-<div class="temp abs-bc"><span style="color:#dc241f">Or where in the Multiverse.</span></div>
+<div class="temp abs-bc"><span style="color:#f0ffff">Or where in the Multiverse.</span></div>
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/galaxy.jpg" alt="">
-<div class="temp abs-bc"><span style="color:#dc241f">Not where in the galaxy.</span></div>
+<div class="temp abs-bc"><span style="color:#f0ffff">Not where in the galaxy.</span></div>
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/earth-1.jpg" alt="">
-<div class="temp abs-bc"><span style="color:#dc241f">Where are things on Earth and where are they going.</span></div>
+<div class="temp abs-bc"><span style="color:#f0ffff">It's about where things are on Earth. It's very down to Earth in that sense &#128512;.</span></div>
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/mt-everest.jpg" alt="">
-<div class="temp abs-bc"><span style="color:#dc241f">For example, where is the top of the world?</span></div>
+<div class="temp abs-bc"><span style="color:#f0ffff">For example, where is the top of the world?</span><br /><span style="text-align:right; font-size:14px;color:#f0ffff;">Image credit: AFP/Project Possible</span></div>
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/mt-everest.jpg" alt="">
-  <div class="temp abs-bc"><span style="color:#dc241f">And is it 8,848 m above sea level?  Or 8,851 m? What even is sea level?</span></div>
+  <div class="temp abs-bc"><span style="color:#f0ffff">Is it 8,848 m above sea level?  Or 8,851 m? What even is sea level?</span><br /><span style="text-align:right; font-size:14px;color:#f0ffff;">Image credit: AFP/Project Possible</span></div>
 
     </section>
 
     <section class="slide">
       <img class="spotlight" src="images/badwater-basin.jpg" alt="">
-        <div class="temp abs-bc">Badwater Basin, Death Valley, USA: 85.5 m below sea level.</div>
+        <div class="temp abs-bc"><span style="color:#f0ffff">Badwater Basin, Death Valley, USA: 85.5 m below sea level.</span></span></div>
     </section>    
 
     <section class="slide">
       <img class="spotlight" src="images/tectonic_plate_velocities.png" alt="">
-        <div class="temp abs-bc"><pre><code>Earth Science: Tectonic Plate Motion</code></pre></div>
+        <div class="temp abs-bc">Earth Science: Monitoring Tectonic Plate Motion</div>
     </section>
 
 
     <section class="slide">
       <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=WC1h%200AY+(Harrie%20Massey%20Lecture%20Theatre)&amp;ie=UTF8&amp;t=p&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe></div><br />
-              <div class="temp abs-bc"><pre><code>Positioning & Navigation</code></pre></div>
+              <div class="temp abs-bc"><span style="color:#800080">Positioning & Navigation</span></div>
     </section>
 
 
     <section class="slide">
       <h2>Earth-centred Coordinate Systems</h2>
       <iframe src="iframes_geodesy/earth-centred-cs.html" frameborder="0"></iframe>
-      <div class="temp abs-bc">1. To label points on in 3D space we need a coordinate system</div>
-      <div class="slide temp abs-bc">2. <span style="color:#dc241f">X</span>, <span style="color:#007d32">Y</span> and <span style="color:#0019a8">Z</span> axes with origin point at (<span style="color:#dc241f">x=0</span>,<span style="color:#007d32">y=0</span>,<span style="color:#0019a8">z=0</span>)</div>
-      <div class="slide temp abs-bc">3. The origin should be at the Earth's centre of mass. But where is that? </div>
-      <div class="slide temp abs-bc">4. Can we assume that the center of mass and the center of geometry are the same? What geometrical object best represents Earth's shape?</div>
-      <div class="slide temp abs-bc">5. Mostly we are interested in where things are in relation to the Earth's surface.</div>
-      <div class="slide temp abs-bc">6. Equation of a spherical surface: $$x^2+y^2+z^2=r^2$$</div>
-      <div class="slide temp abs-bc">7. The Earth is not spherical. Geodesists model geometric shape of the Earth as oblate spheroid (or ellipsoid).</div>
-      <div class="slide temp abs-bc"><div>8. General equation for an ellipsoid: $$ \frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1 $$ </div>
+      <div class="temp abs-bc">To label points on in 3D space we need a coordinate system</div>
+      <div class="slide temp abs-bc"><span style="color:#dc241f">X</span>, <span style="color:#007d32">Y</span> and <span style="color:#0019a8">Z</span> axes with origin point at (<span style="color:#dc241f">x=0</span>,<span style="color:#007d32">y=0</span>,<span style="color:#0019a8">z=0</span>)</div>
+      <div class="slide temp abs-bc">The origin should be at the Earth's centre of mass. But where is that? </div>
+      <div class="slide temp abs-bc">Can we assume that the center of mass and the center of geometry are the same? What geometrical object best represents Earth's shape?</div>
+      <div class="slide temp abs-bc">Mostly we are interested in where things are in relation to the Earth's surface.</div>
+      <div class="slide temp abs-bc">Equation of a spherical surface: $$x^2+y^2+z^2=r^2$$</div>
+      <div class="slide temp abs-bc">The Earth is not spherical. Geodesists model geometric shape of the Earth as oblate spheroid (or ellipsoid).</div>
+      <div class="slide temp abs-bc"><div>General equation for an ellipsoid: $$ \frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1 $$ </div>
     </section>
 
     <section class="slide">
       <h2>Earth-centred Coordinate Systems</h2>
       <iframe src="iframes_geodesy/earth-centred-cs-2.html" frameborder="0"></iframe>
       <div class="temp abs-bc">Height Definition Method 1: Distance from the ellipsoid in the direction normal (or pependicular) to the reference ellipsoid.</div>
-      <div class="slide temp abs-bc">Geodesists call this the ellipsoidal height. But this is not the way the height above sea level is measured.</div>
-      <div class="slide temp abs-bc">The Earth is rotating in inertial space.</div>
-      <div class="slide temp abs-bc">So we need two types of coordinate system: rotating and non-rotating.</div>
-      <div class="slide temp abs-bc"> In ECI system, we are flying through space at 300 m/s.</div>
+      <div class="slide temp abs-bc">Geodesists call this the ellipsoidal (or geodetic) height. But this is not the way the height above mean sea level is measured.</div>
+      <div class="slide temp abs-bc">Suppose there is some surface where the acceleration is \(9.8 m/s^2\). This would be gravitational equipotential surface.</div>
+      <div class="slide temp abs-bc">What the shape of this surface look like? Why do we care?</div>      
+      <div class="slide temp abs-bc">Short digression: The Earth is rotating in inertial space.</div>
+      <div class="slide temp abs-bc">So we need two types of coordinate system: rotating (Earth-fixed) and non-rotating (Inertial).</div>
+      <div class="slide temp abs-bc">Interesting fact: In the Earth-centered Inertial (ECI) system, we are flying through space at \( 300 ms^{-1} \).</div>
     </section>
 
-    <section class="slide">
-      <h2>The Geoid Surface</h2>
+<!--     <section class="slide">
+      <h2>Measuring Earth's Gravity from Orbit</h2>
       <iframe src="iframes_geodesy/satellite-geodesy.html" frameborder="0"></iframe>
       <div class="temp abs-bc">The acceleration due to gravity on the Earth's surface is \(9.81 m/s^2\). True or False? </div>
       <div class="slide temp abs-bc">Suppose there is some surface where the acceleration is \(9.81 m/s^2\). This would be gravitational equipotential surface.</div>
-      <div class="slide temp abs-bc"> In ECI system, we are flying through space at 300 m/s.</div>
+      <div class="slide temp abs-bc">In ECI system, we are flying through space at 300 m/s.</div>
+    </section> -->
+
+    <section class="slide">
+      <h2>Measuring Earth's Gravity from Orbit</h2>
+      <iframe src="iframes_geodesy/satellite-geodesy.html" frameborder="0"></iframe>
+      <div class="temp abs-bc">If the mass of the Earth is uniformly distributed: $$ \mathbf{a_{sc}} = -\frac{GM_E}{r_{sc}^2} \mathbf{\hat{r}_{sc}} $$</div>
+      <div class="slide temp abs-bc">The orbital trajectory of low Earth orbiter (LEO) satellites (e.g. GOCE flying at ~300 km altitude, orbital speed ~7 km/s) are sensitive to deviations from a point mass model of Earth gravity.</div>
+    </section>
+
+    <section class="slide">
+      <h2>Measuring Earth's Gravity from Orbit</h2>
+      <iframe src="iframes_geodesy/satellite-geodesy-2.html" frameborder="0"></iframe>
+      <div class="temp abs-bc">Medium Earth Orbiter (MEO) satellites, such as the satellites of the Global Positioning System (GPS), fly at much higher altitudes of about 20,000 km.</div>
+      <div class="slide temp abs-bc">Satellites like GOCE also carry GPS receivers onboard. So we can observe how their orbits deviate from the shape predicted simpler gravity models.</div>
+    </section>
+
+<!--     <section class="slide">
+      <h2>Measuring Earth's Gravity from Orbit</h2>
+      <iframe src="iframes_geodesy/satellite-geodesy-3.html" frameborder="0"></iframe>
+      <div class="temp abs-bc">If the mass of the Earth is uniformly distributed: $$ \mathbf{a_{sc}} = -\frac{GM_E}{r_{sc}^2} \mathbf{\hat{r}_{sc}} $$</div>
+      <div class="slide temp abs-bc">The orbital trajectory of low Earth orbiter (LEO) satellites are sensitive to deviations from a point mass model of Earth gravity.</div>
+    </section> -->
+
+    <section class="slide">
+     <iframe src="https://www.esa.int/spaceinvideos/content/view/embedjw/421551" width="640" height="360" frameborder="0"></iframe>
+    <div class="temp abs-bc"><span style="color:#f0ffff">Gravity Field and Steady-State Ocean Circulation Explorer (GOCE)</span></div>
     </section>
 
     <!-- Slide 3 -->
     <section class="slide">
       <div style="width: 100%"><iframe src="https://giphy.com/embed/xzRAvJPmxCM7K" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/models-potato-globe-xzRAvJPmxCM7K">via GIPHY</a></p></div><br />
+    <div class="temp abs-bc"><span style="color:#000000">The EGM-2008 Geoid</span><br /><span style="text-align:right; font-size:14px;color:#000000;">Source: Bezděk A, Sebera J, 2013. MATLAB script for 3D visualizing geodata on a rotating globe.
+Computers & geosciences 56, 127–130</span></div>
     </section>
 
+<!--     <section class="slide">
+      <div style="width: 100%"><iframe src="https://giphy.com/embed/xzRAvJPmxCM7K" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/models-potato-globe-xzRAvJPmxCM7K">via GIPHY</a></p></div><br />
+    <div class="temp abs-bc"><br /> <br /><span style="text-align:right; font-size:14px;color:#000000;">Source: Bezděk A, Sebera J, 2013. MATLAB script for 3D visualizing geodata on a rotating globe.
+Computers & geosciences 56, 127–130</span></div>
+    </section> -->
+
     <section class="slide">
-     <iframe src="https://www.esa.int/spaceinvideos/content/view/embedjw/421551" width="640" height="360" frameborder="0"></iframe>
+      <img class="spotlight" src="images/srp_ray_tracing.gif" alt="">
+      <div class="temp abs-bc"><span style="color:#000000">Our research at UCL: radiation force modelling for precise orbit determination of spcecraft</span></div>
     </section>
 
     <!-- Final Slide (if time allows) -->
@@ -205,11 +242,13 @@
   </div>
 
 <div id="info-left">
-  <a href="https://s-bhattarai.github.io">s-bhattarai.github.io</a>
+  <a href="https://s-bhattarai.github.io">S. Bhattarai</a>
+  <br /><a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/">Department of Civil, Environmental and Geomatic Engineering</a>
+  <br /><a href="https://www.ucl.ac.uk">University College London</a>
 </div>
 
 <div id="info-right">
-  <a href="https://s-bhattarai.github.io/ucl_sc_space_geodesy_v07/ucl_sc_geodesy_v07.html">Slides</a>
+ <a href="https://www.ucl.ac.uk/physics-astronomy/outreach/science-centre-lectures">The Science Centre Lectures: Summer 2019</a>
 </div>
 
 <!-- Required JS files. -->

@@ -85,7 +85,7 @@
         // color: 0xaaaaaa
         var materialPhong = new THREE.MeshPhongMaterial({ shininess: 40, flatShading: false });
 
-        geometry = new THREE.SphereGeometry( 60, 64, 64 );
+        geometry = new THREE.SphereGeometry( 60, 20, 20 );
         // , 0, Math.PI * 2, Math.PI / 4, Math.PI / 2
 
         mesh = new THREE.Mesh( geometry, materialPhong );
@@ -241,7 +241,7 @@
           setupTween( mesh.position, 'z', 0);
 
           setupTween( mesh.material, 'shininess', 50 );
-          mesh.material.opacity = 0.25;
+          mesh.material.opacity = 0.5;
 
           mesh.material.flatShading = true;
           mesh.material.needsUpdate = true;

@@ -91,7 +91,7 @@ function plotaxes(in_scene){
 	    
 	    // color: 0xff0000,
 	    color: 0x007d32,	// Piccadilly Line Blue
-	    linewidth: 50
+	    linewidth: 5
 	});
 	var geometry = new THREE.Geometry();
     geometry.vertices.push(new THREE.Vector3(0, 0, 0));
@@ -103,7 +103,7 @@ function plotaxes(in_scene){
 	    
 	    // color: 0x00ff00, 
 	    color: 0x0019a8,	// District Line Green
-	    linewidth: 50
+	    linewidth: 5
 	});
 	var geometry = new THREE.Geometry();
     geometry.vertices.push(new THREE.Vector3(0, 0, 0));
@@ -115,7 +115,7 @@ function plotaxes(in_scene){
 	    
 	    // color: 0x0000ff, 
 	    color: 0xdc241f,	// Central Line Red
-	    linewidth: 50
+	    linewidth: 5
 	});
 	var geometry = new THREE.Geometry();
     geometry.vertices.push(new THREE.Vector3(0, 0, 0));
@@ -165,7 +165,7 @@ function plotaxes(in_mesh){
 	var material = new THREE.LineBasicMaterial({
 	    // color: 0xff0000, 
 	    color: 0x007d32,	// Piccadilly Line Blue
-	    linewidth: 50
+	    linewidth: 5
 	});
 
 	var geometry = new THREE.Geometry();
@@ -177,7 +177,7 @@ function plotaxes(in_mesh){
     var material = new THREE.LineBasicMaterial({
 	    // color: 0x00ff00, 
 	    color: 0x0019a8,	// District Line Green
-	    linewidth: 50
+	    linewidth: 5
 	});
 
 	var geometry = new THREE.Geometry();
@@ -189,7 +189,7 @@ function plotaxes(in_mesh){
     var material = new THREE.LineBasicMaterial({
 	    // color: 0x0000ff, 
 	    color: 0xdc241f,	// Central Line Red
-	    linewidth: 50
+	    linewidth: 5
 	});
 
 	var geometry = new THREE.Geometry();

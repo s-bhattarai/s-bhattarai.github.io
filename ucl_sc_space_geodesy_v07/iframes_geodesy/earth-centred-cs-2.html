@@ -85,7 +85,7 @@
         // color: 0xaaaaaa
         var materialPhong = new THREE.MeshPhongMaterial({ shininess: 40, flatShading: false });
 
-        geometry = new THREE.SphereGeometry( 60, 12, 12 );
+        geometry = new THREE.SphereGeometry( 60, 20, 20 );
         // , 0, Math.PI * 2, Math.PI / 4, Math.PI / 2
 
         mesh = new THREE.Mesh( geometry, materialPhong );
@@ -166,7 +166,7 @@
       function render() {
         var delta = clock.getDelta();
 
-        if (step > 2)
+        if (step > 4)
         {
           mesh.rotation.y += 0.2 * delta;
           plotaxes(scene);
@@ -208,7 +208,7 @@
             mesh.material.map = THREE.ImageUtils.loadTexture("images/planets/earth_atmos_2048.jpg");
           plotaxes(mesh);
           mesh.material.transparent = true;
-          mesh.material.opacity = 0.8;
+          mesh.material.opacity = 0.5;
           fnh.visible = true;
           vnh.visible = false;
           mesh.material.needsUpdate = true;
@@ -241,7 +241,7 @@
           setupTween( mesh.position, 'z', 0);
 
           setupTween( mesh.material, 'shininess', 50 );
-          mesh.material.opacity = 0.25;
+          // mesh.material.opacity = 0.25;
 
           mesh.material.flatShading = true;
           mesh.material.needsUpdate = true;
