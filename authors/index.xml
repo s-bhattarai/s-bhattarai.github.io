@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://s-bhattarai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>S. Bhattarai</title>
+      <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/authors/s.-bhattarai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>D. Harrison</title>
@@ -36,15 +45,6 @@
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
       
       <guid>https://s-bhattarai.github.io/authors/s.-allgeier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>S. Bhattarai</title>
-      <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
-      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/authors/s.-bhattarai/</guid>
       <description></description>
     </item>
     

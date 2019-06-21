@@ -3,8 +3,8 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/publication_types/2/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+      <loc>https://s-bhattarai.github.io/authors/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -12,7 +12,69 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/authors/</loc>
+      <loc>https://s-bhattarai.github.io/authors/s.-bhattarai/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/talk/satellite_geodesy/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/tags/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/tags/geodesy/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/tags/gnss/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/tags/gravity/</loc>
+      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/publication_types/2/</loc>
       <lastmod>2019-06-10T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -56,24 +118,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/publication/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://s-bhattarai.github.io/authors/s.-allgeier/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/s.-bhattarai/</loc>
       <lastmod>2019-06-10T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -91,15 +136,6 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://s-bhattarai.github.io/authors/t.-springer/</loc>
       <lastmod>2019-06-10T00:00:00+01:00</lastmod>
       <priority>0</priority>
@@ -109,25 +145,7 @@
     
     <url>
     
-      <loc>https://s-bhattarai.github.io/tags/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://s-bhattarai.github.io/authors/z.-li/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/gnss/</loc>
       <lastmod>2019-06-10T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -209,14 +227,6 @@
       <loc>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</loc>
       <lastmod>2019-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/talk/</loc>
-      <lastmod>2018-11-23T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -352,6 +362,7 @@
     <url>
     
       <loc>https://s-bhattarai.github.io/author/admin/</loc>
+      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
     </url>
     
   
@@ -375,6 +386,23 @@
     <url>
     
       <loc>https://s-bhattarai.github.io/post/</loc>
+      <lastmod>2019-02-04T22:42:51+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/publication/</loc>
+      <lastmod>2019-02-04T22:42:51+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://s-bhattarai.github.io/talk/</loc>
+      <lastmod>2019-02-04T22:42:51+00:00</lastmod>
     </url>
     
   

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>UCL Science Center Lecture Series: Geodesy</title>
+
+  <!-- Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+
+  <!-- MathJax for nice equations -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="deck.js/core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/status/deck.status.css">
+<!--   <link rel="stylesheet" media="screen" href="deck.js/extensions/scale/deck.scale.css"> -->
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+<!--   <link rel="stylesheet" media="screen" href="../ext/js/deck.js/themes/style/swiss.css"> -->
+  <link rel="stylesheet" media="screen" href="resources/theme.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <!-- <link rel="stylesheet" media="screen" href="deck.js/themes/transition/horizontal-slide.css"> -->
+
+  <!-- Basic black and white print styles -->
+  <!-- <link rel="stylesheet" media="print" href="deck.js/core/print.css"> -->
+
+  <!-- <link href="../ext/res/styles/main.css" rel="stylesheet" type="text/css"> -->
+
+  <!-- Required Modernizr file -->
+  <script src="deck.js/modernizr.custom.js"></script>
+
+</head>
+<body class="language-javascript">
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <!-- Introductory Slide -->
+    <section class="slide">
+      <iframe src="iframes_geodesy/sphere-title.html" frameborder="0"></iframe>
+      <div class="page-cover">
+        <h1 class="cover-title">Satellite Geodesy<small>Surveying the Earth from Orbit</small></h1>
+      </div>
+    </section>
+
+
+    <!-- Slide 2 -->
+<!--     <section class="slide instant">
+      <iframe src="../ext/iframes_geodesy/earth-properties.html" frameborder="0"></iframe>
+      <h2>Geodesy</h2>
+      <p class="slide">The branch of science that allows us to know where things are on Earth and where they are going.</p>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshBasicMaterial({ ... });</code></pre></div>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshLambertMaterial({ ... });</code></pre></div>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshPhongMaterial({ ... });</code></pre></div>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshStandardMaterial({ ... });</code></pre></div>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshToonMaterial({ ... });</code></pre></div>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshNormalMaterial({ ... });</code></pre></div>
+      <div class="slide temp abs-bc"><pre><code>var material = new THREE.MeshNormalMaterial({ ... });</code></pre></div>
+    </section> -->
+
+    <!-- Slide 2 -->
+    <section class="slide">
+      <img class="spotlight" src="images/earth-1.jpg" alt="">
+<div class="temp abs-bc"><span style="color:#dc241f">Geodesy is the science of knowing where things are on Earth and where they are going.</span></div>
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/universe1.jpg" alt="">
+<div class="temp abs-bc"><span style="color:#dc241f">Not where in the Universe.</span></div>
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/multiverse1.jpg" alt="">
+<div class="temp abs-bc"><span style="color:#dc241f">Or where in the Multiverse.</span></div>
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/galaxy.jpg" alt="">
+<div class="temp abs-bc"><span style="color:#dc241f">Not where in the galaxy.</span></div>
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/earth-1.jpg" alt="">
+<div class="temp abs-bc"><span style="color:#dc241f">Where are things on Earth and where are they going.</span></div>
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/mt-everest.jpg" alt="">
+<div class="temp abs-bc"><span style="color:#dc241f">For example, where is the top of the world?</span></div>
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/mt-everest.jpg" alt="">
+  <div class="temp abs-bc"><span style="color:#dc241f">And is it 8,848 m above sea level?  Or 8,851 m? What even is sea level?</span></div>
+
+    </section>
+
+    <section class="slide">
+      <img class="spotlight" src="images/badwater-basin.jpg" alt="">
+        <div class="temp abs-bc">Badwater Basin, Death Valley, USA: 85.5 m below sea level.</div>
+    </section>    
+
+    <section class="slide">
+      <img class="spotlight" src="images/tectonic_plate_velocities.png" alt="">
+        <div class="temp abs-bc"><pre><code>Earth Science: Tectonic Plate Motion</code></pre></div>
+    </section>
+
+
+    <section class="slide">
+      <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=WC1h%200AY+(Harrie%20Massey%20Lecture%20Theatre)&amp;ie=UTF8&amp;t=p&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/map-my-route/">Create route map</a></iframe></div><br />
+              <div class="temp abs-bc"><pre><code>Positioning & Navigation</code></pre></div>
+    </section>
+
+
+    <section class="slide">
+      <h2>Earth-centred Coordinate Systems</h2>
+      <iframe src="iframes_geodesy/earth-centred-cs.html" frameborder="0"></iframe>
+      <div class="temp abs-bc">1. To label points on in 3D space we need a coordinate system</div>
+      <div class="slide temp abs-bc">2. <span style="color:#dc241f">X</span>, <span style="color:#007d32">Y</span> and <span style="color:#0019a8">Z</span> axes with origin point at (<span style="color:#dc241f">x=0</span>,<span style="color:#007d32">y=0</span>,<span style="color:#0019a8">z=0</span>)</div>
+      <div class="slide temp abs-bc">3. The origin should be at the Earth's centre of mass. But where is that? </div>
+      <div class="slide temp abs-bc">4. Can we assume that the center of mass and the center of geometry are the same? What geometrical object best represents Earth's shape?</div>
+      <div class="slide temp abs-bc">5. Mostly we are interested in where things are in relation to the Earth's surface.</div>
+      <div class="slide temp abs-bc">6. Equation of a spherical surface: $$x^2+y^2+z^2=r^2$$</div>
+      <div class="slide temp abs-bc">7. The Earth is not spherical. Geodesists model geometric shape of the Earth as oblate spheroid (or ellipsoid).</div>
+      <div class="slide temp abs-bc"><div>8. General equation for an ellipsoid: $$ \frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1 $$ </div>
+    </section>
+
+    <section class="slide">
+      <h2>Earth-centred Coordinate Systems</h2>
+      <iframe src="iframes_geodesy/earth-centred-cs-2.html" frameborder="0"></iframe>
+      <div class="temp abs-bc">Height Definition Method 1: Distance from the ellipsoid in the direction normal (or pependicular) to the reference ellipsoid.</div>
+      <div class="slide temp abs-bc">Geodesists call this the ellipsoidal height. But this is not the way the height above sea level is measured.</div>
+      <div class="slide temp abs-bc">The Earth is rotating in inertial space.</div>
+      <div class="slide temp abs-bc">So we need two types of coordinate system: rotating and non-rotating.</div>
+      <div class="slide temp abs-bc"> In ECI system, we are flying through space at 300 m/s.</div>
+    </section>
+
+    <section class="slide">
+      <h2>The Geoid Surface</h2>
+      <iframe src="iframes_geodesy/satellite-geodesy.html" frameborder="0"></iframe>
+      <div class="temp abs-bc">The acceleration due to gravity on the Earth's surface is \(9.81 m/s^2\). True or False? </div>
+      <div class="slide temp abs-bc">Suppose there is some surface where the acceleration is \(9.81 m/s^2\). This would be gravitational equipotential surface.</div>
+      <div class="slide temp abs-bc"> In ECI system, we are flying through space at 300 m/s.</div>
+    </section>
+
+    <!-- Slide 3 -->
+    <section class="slide">
+      <div style="width: 100%"><iframe src="https://giphy.com/embed/xzRAvJPmxCM7K" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/models-potato-globe-xzRAvJPmxCM7K">via GIPHY</a></p></div><br />
+    </section>
+
+    <section class="slide">
+     <iframe src="https://www.esa.int/spaceinvideos/content/view/embedjw/421551" width="640" height="360" frameborder="0"></iframe>
+    </section>
+
+    <!-- Final Slide (if time allows) -->
+    <section class="slide">
+      <video class="spotlight" src="https://svs.gsfc.nasa.gov/vis/a010000/a010900/a010910/space_geodesy_appletv.m4v"></video>
+    </section>
+
+<!--     <section class="slide">
+      <h3>Sphere?</h3>
+      
+      <div id="scene-container">
+        <canvas id="c1" width="1080" height="720" style="width: 1080px; height: 720px; border: 1px solid #000000;"></canvas>
+      </div>
+      <script src="app_01.js"></script>
+    </section> -->
+      
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<div id="info-left">
+  <a href="https://s-bhattarai.github.io">s-bhattarai.github.io</a>
+</div>
+
+<div id="info-right">
+  <a href="https://s-bhattarai.github.io/ucl_sc_space_geodesy_v07/ucl_sc_geodesy_v07.html">Slides</a>
+</div>
+
+<!-- Required JS files. -->
+<script src="resources/jquery-2.1.1.min.js"></script>
+<script src="deck.js/core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="deck.js/extensions/menu/deck.menu.js"></script>
+<script src="deck.js/extensions/goto/deck.goto.js"></script>
+<script src="deck.js/extensions/status/deck.status.js"></script>
+<script src="deck.js/extensions/navigation/deck.navigation.js"></script>
+
+<script src="iframes/three/three.min.js"></script>
+<script src="resources/VRController.js"></script>
+
+<!-- Initialize the deck -->
+<script src="resources/slides.js"></script>
+<script src="resources/prism.js"></script>
+
+</body>
+</html>
