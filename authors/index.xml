@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Santosh Bhattarai</title>
+    <title>Authors | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/authors/</link>
-    <description>Recent content in Authors on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://s-bhattarai.github.io/authors/</link>
+    </image>
     
     <item>
       <title>S. Bhattarai</title>
       <link>https://s-bhattarai.github.io/authors/s.-bhattarai/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/s.-bhattarai/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>D. Harrison</title>
       <link>https://s-bhattarai.github.io/authors/d.-harrison/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/d.-harrison/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>M. Ziebart</title>
       <link>https://s-bhattarai.github.io/authors/m.-ziebart/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/m.-ziebart/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>S. Allgeier</title>
       <link>https://s-bhattarai.github.io/authors/s.-allgeier/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/s.-allgeier/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>S. Grey</title>
       <link>https://s-bhattarai.github.io/authors/s.-grey/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/s.-grey/</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>T. Springer</title>
       <link>https://s-bhattarai.github.io/authors/t.-springer/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/t.-springer/</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>Z. Li</title>
       <link>https://s-bhattarai.github.io/authors/z.-li/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/z.-li/</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title>J. A. Momoh</title>
       <link>https://s-bhattarai.github.io/authors/j.-a.-momoh/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/j.-a.-momoh/</guid>
       <description></description>
     </item>
@@ -88,7 +80,6 @@
       <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison</title>
       <link>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</guid>
       <description></description>
     </item>
@@ -97,7 +88,6 @@
       <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey</title>
       <link>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</guid>
       <description></description>
     </item>
@@ -106,9 +96,21 @@
       <title>J. Davis</title>
       <link>https://s-bhattarai.github.io/authors/j.-davis/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/authors/j.-davis/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://s-bhattarai.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a lecturer in space geodesy in the Department of Civil,
+Environmental and Geomatic Engineering (CEGE) at University College London
+(UCL) with research interests in astrodynamics and space debris dynamics for
+orbit prediction and orbit determination, and also, in various aspects of
+global navigation satellite systems (GNSS) and related technologies. If you&#39;re still reading (👍) and want to know more, have a look at my &lt;a href=&#34;https://s-bhattarai.github.io/files/Bhattarai_S_CV_Nov2019.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;. I teach Mathematical Modelling and Analysis to first and second year undergraduates in the &lt;a href=&#34;https://www.ucl.ac.uk/bartlett/architecture/programmes/undergraduate/engineering-and-architectural-design-meng&#34;&gt;MEng in Engineering and Architectural Design Programme&lt;/a&gt; and contribute to teaching on various modules in CEGE. Please reach out if you&#39;re interested in collaborating!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

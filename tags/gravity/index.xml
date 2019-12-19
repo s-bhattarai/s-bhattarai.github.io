@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gravity on Santosh Bhattarai</title>
+    <title>gravity | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/tags/gravity/</link>
-    <description>Recent content in gravity on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/tags/gravity/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/tags/gravity/index.xml" rel="self" type="application/rss+xml" />
+    <description>gravity</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>gravity</title>
+      <link>https://s-bhattarai.github.io/tags/gravity/</link>
+    </image>
     
     <item>
       <title>Satellite Geodesy: Surveying the Earth from Orbit</title>
       <link>https://s-bhattarai.github.io/talk/satellite_geodesy/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/talk/satellite_geodesy/</guid>
-      <description>Version notes  ucl_sc_geodesy_v07.html - UCL Science Centre Lecture Series, Summer 2019, London, UK  WebGL presentation slides. Runs on deck.js. Use the &amp;ldquo;m&amp;rdquo; key to open the menu for quick navigation between slides. As a template, the presentation uses the slide deck from David Lyon&amp;rsquo;s &amp;lsquo;Intro to WebGL with Three.js&amp;rsquo; (Slides | Video).</description>
+      <description>&lt;h2 id=&#34;version-notes&#34;&gt;Version notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ucl_sc_geodesy_v07.html&lt;/code&gt; - UCL Science Centre Lecture Series, Summer 2019, London, UK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WebGL presentation slides.
+Runs on &lt;a href=&#34;https://github.com/imakewebthings/deck.js&#34;&gt;deck.js&lt;/a&gt;.
+Use the &amp;ldquo;m&amp;rdquo; key to open the menu for quick navigation between slides. As a template, the presentation uses the slide deck from David Lyon&#39;s &amp;lsquo;Intro to WebGL with Three.js&amp;rsquo; (&lt;a href=&#34;http://davidscottlyons.com/threejs-intro&#34;&gt;Slides&lt;/a&gt; | &lt;a href=&#34;https://youtu.be/6eLl8yQnxHQ&#34;&gt;Video&lt;/a&gt;).&lt;/p&gt;
+</description>
     </item>
     
   </channel>

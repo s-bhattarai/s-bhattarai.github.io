@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Santosh Bhattarai</title>
+    <title>Tags | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/tags/</link>
-    <description>Recent content in Tags on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>https://s-bhattarai.github.io/tags/</link>
+    </image>
     
     <item>
       <title>geodesy</title>
       <link>https://s-bhattarai.github.io/tags/geodesy/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/geodesy/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>gnss</title>
       <link>https://s-bhattarai.github.io/tags/gnss/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/gnss/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>gravity</title>
       <link>https://s-bhattarai.github.io/tags/gravity/</link>
       <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/gravity/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>gps</title>
       <link>https://s-bhattarai.github.io/tags/gps/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/gps/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>pod</title>
       <link>https://s-bhattarai.github.io/tags/pod/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/pod/</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>radiation-force-modelling</title>
       <link>https://s-bhattarai.github.io/tags/radiation-force-modelling/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/radiation-force-modelling/</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>ray-tracing</title>
       <link>https://s-bhattarai.github.io/tags/ray-tracing/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/ray-tracing/</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title>srp</title>
       <link>https://s-bhattarai.github.io/tags/srp/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/srp/</guid>
       <description></description>
     </item>
@@ -88,7 +80,6 @@
       <title>resilience</title>
       <link>https://s-bhattarai.github.io/tags/resilience/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/resilience/</guid>
       <description></description>
     </item>
@@ -97,7 +88,6 @@
       <title>space weather</title>
       <link>https://s-bhattarai.github.io/tags/space-weather/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/space-weather/</guid>
       <description></description>
     </item>
@@ -106,7 +96,6 @@
       <title>phd</title>
       <link>https://s-bhattarai.github.io/tags/phd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/tags/phd/</guid>
       <description></description>
     </item>

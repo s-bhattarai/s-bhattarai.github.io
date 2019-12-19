@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>phd on Santosh Bhattarai</title>
+    <title>phd | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/tags/phd/</link>
-    <description>Recent content in phd on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/tags/phd/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/tags/phd/index.xml" rel="self" type="application/rss+xml" />
+    <description>phd</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>phd</title>
+      <link>https://s-bhattarai.github.io/tags/phd/</link>
+    </image>
     
     <item>
-      <title>Satellite clock behaviour modelling</title>
+      <title>Satellite Clock Behaviour Modelling</title>
       <link>https://s-bhattarai.github.io/project/phd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/project/phd/</guid>
-      <description>Investigating and modelling the behaviour of GNSS satellite clocks on-orbit</description>
+      <description>&lt;p&gt;In an operational sense, satellite clock time offset prediction (SCTOP)
+is a fundamental requirement in global navigation satellite systems (GNSS)
+technology. SCTOP uncertainty is a significant component of the
+uncertainty budget of the basic GNSS pseudorange measurements
+used in standard (i.e not
+high-precision), single-receiver applications. In real-time, this prediction
+uncertainty contributes directly to GNSS-based positioning, navigation and
+timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked
+to satellite clock predictability. Now, satellite clock predictability is
+affected by two factors: (i) the clock itself (i.e. the oscillator, the
+frequency standard etc.) and (ii) the prediction algorithm. This research
+focuses on aspects of the latter.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

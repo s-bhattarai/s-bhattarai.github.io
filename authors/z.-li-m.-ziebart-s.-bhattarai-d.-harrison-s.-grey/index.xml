@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey on Santosh Bhattarai</title>
+    <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</link>
-    <description>Recent content in Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/index.xml" rel="self" type="application/rss+xml" />
+    <description>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison, S. Grey</title>
+      <link>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</link>
+    </image>
     
     <item>
       <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections</title>
       <link>https://s-bhattarai.github.io/publication/fast_srp/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/fast_srp/</guid>
       <description></description>
     </item>

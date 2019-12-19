@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Santosh Bhattarai</title>
+    <title>Posts | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/post/</link>
-    <description>Recent content in Posts on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    
-	<atom:link href="https://s-bhattarai.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://s-bhattarai.github.io/post/</link>
+    </image>
     
   </channel>
 </rss>

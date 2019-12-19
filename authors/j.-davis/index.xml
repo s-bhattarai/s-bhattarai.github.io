@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>J. Davis on Santosh Bhattarai</title>
+    <title>J. Davis | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/authors/j.-davis/</link>
-    <description>Recent content in J. Davis on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 27 Apr 2012 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/authors/j.-davis/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/authors/j.-davis/index.xml" rel="self" type="application/rss+xml" />
+    <description>J. Davis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 27 Apr 2012 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>J. Davis</title>
+      <link>https://s-bhattarai.github.io/authors/j.-davis/</link>
+    </image>
     
     <item>
       <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</title>
       <link>https://s-bhattarai.github.io/publication/eftf12/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/eftf12/</guid>
       <description></description>
     </item>

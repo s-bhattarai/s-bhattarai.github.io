@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>space weather on Santosh Bhattarai</title>
+    <title>space weather | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/tags/space-weather/</link>
-    <description>Recent content in space weather on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/tags/space-weather/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/tags/space-weather/index.xml" rel="self" type="application/rss+xml" />
+    <description>space weather</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>space weather</title>
+      <link>https://s-bhattarai.github.io/tags/space-weather/</link>
+    </image>
     
     <item>
       <title>The Vulnerabilities of GNSS to Space Weather</title>
       <link>https://s-bhattarai.github.io/talk/space_weather_gnss/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/talk/space_weather_gnss/</guid>
       <description></description>
     </item>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Santosh Bhattarai</title>
+    <title>Publications | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/publication/</link>
-    <description>Recent content in Publications on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    
-	<atom:link href="https://s-bhattarai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Publications</title>
+      <link>https://s-bhattarai.github.io/publication/</link>
+    </image>
     
     <item>
       <title>Demonstrating developments in high-fidelity analytical radiation force modelling methods for spacecraft with a new model for GPS IIR/IIR-M</title>
       <link>https://s-bhattarai.github.io/publication/gpsiir_rfm/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/gpsiir_rfm/</guid>
       <description></description>
     </item>
@@ -24,7 +24,6 @@
       <title>Receiver Clock Jump and Cycle Slip Correction Algorithm for Single-Frequency GNSS</title>
       <link>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</guid>
       <description></description>
     </item>
@@ -33,7 +32,6 @@
       <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>
       <link>https://s-bhattarai.github.io/publication/shadow_fn/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/shadow_fn/</guid>
       <description></description>
     </item>
@@ -42,7 +40,6 @@
       <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections</title>
       <link>https://s-bhattarai.github.io/publication/fast_srp/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/fast_srp/</guid>
       <description></description>
     </item>
@@ -51,7 +48,6 @@
       <title>Satellite clock time offset prediction in global navigation satellite systems</title>
       <link>https://s-bhattarai.github.io/publication/phd_thesis/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/phd_thesis/</guid>
       <description></description>
     </item>
@@ -60,7 +56,6 @@
       <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</title>
       <link>https://s-bhattarai.github.io/publication/eftf12/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/eftf12/</guid>
       <description></description>
     </item>

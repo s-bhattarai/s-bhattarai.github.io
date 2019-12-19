@@ -1,42 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Santosh Bhattarai</title>
+    <title>Projects | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/project/</link>
-    <description>Recent content in Projects on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://s-bhattarai.github.io/project/</link>
+    </image>
     
     <item>
-      <title>Radiation Force Modelling</title>
-      <link>https://s-bhattarai.github.io/project/satremsens_aqm/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/project/satremsens_aqm/</guid>
-      <description>High-Fidelity, Physics-based Radiation Force Modelling from Earth-orbiting Spacecraft</description>
+      <title>Satellite Clock Behaviour Modelling</title>
+      <link>https://s-bhattarai.github.io/project/phd/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/project/phd/</guid>
+      <description>&lt;p&gt;In an operational sense, satellite clock time offset prediction (SCTOP)
+is a fundamental requirement in global navigation satellite systems (GNSS)
+technology. SCTOP uncertainty is a significant component of the
+uncertainty budget of the basic GNSS pseudorange measurements
+used in standard (i.e not
+high-precision), single-receiver applications. In real-time, this prediction
+uncertainty contributes directly to GNSS-based positioning, navigation and
+timing (PNT) uncertainty. In short, GNSS performance in intrinsically linked
+to satellite clock predictability. Now, satellite clock predictability is
+affected by two factors: (i) the clock itself (i.e. the oscillator, the
+frequency standard etc.) and (ii) the prediction algorithm. This research
+focuses on aspects of the latter.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Satellite Remote Sensing for Air Quality Monitoring</title>
+      <title>Radiation Force Modelling</title>
       <link>https://s-bhattarai.github.io/project/radiation_force_modelling/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/project/radiation_force_modelling/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Satellite clock behaviour modelling</title>
-      <link>https://s-bhattarai.github.io/project/phd/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/project/phd/</guid>
-      <description>Investigating and modelling the behaviour of GNSS satellite clocks on-orbit</description>
+      <title>Satellite Remote Sensing for Air Quality Monitoring</title>
+      <link>https://s-bhattarai.github.io/project/satremsens_aqm/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/project/satremsens_aqm/</guid>
+      <description></description>
     </item>
     
   </channel>

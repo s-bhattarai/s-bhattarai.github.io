@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison on Santosh Bhattarai</title>
+    <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</link>
-    <description>Recent content in Z. Li, M. Ziebart, S. Bhattarai, D. Harrison on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/index.xml" rel="self" type="application/rss+xml" />
+    <description>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Z. Li, M. Ziebart, S. Bhattarai, D. Harrison</title>
+      <link>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</link>
+    </image>
     
     <item>
       <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>
       <link>https://s-bhattarai.github.io/publication/shadow_fn/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/shadow_fn/</guid>
       <description></description>
     </item>

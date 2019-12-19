@@ -1,409 +1,232 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/project/phd/</loc>
+    <lastmod>2016-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/s.-bhattarai/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/project/radiation_force_modelling/</loc>
+    <lastmod>2018-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/project/satremsens_aqm/</loc>
+    <lastmod>2018-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/talk/satellite_geodesy/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/geodesy/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/geodesy/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/gnss/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/gnss/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/gravity/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/gravity/</loc>
-      <lastmod>2019-06-21T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/talk/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication_types/2/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/s.-bhattarai/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/d.-harrison/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/gpsiir_rfm/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/talk/satellite_geodesy/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/m.-ziebart/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/</loc>
+    <lastmod>2019-06-21T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication_types/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication_types/2/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/s.-allgeier/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/d.-harrison/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/s.-grey/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/gpsiir_rfm/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/t.-springer/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/gps/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/z.-li/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/m.-ziebart/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/gps/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/pod/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/pod/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication_types/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/radiation-force-modelling/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/ray-tracing/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/radiation-force-modelling/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/srp/</loc>
-      <lastmod>2019-06-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/ray-tracing/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/j.-a.-momoh/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/s.-allgeier/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</loc>
-      <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/s.-grey/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/shadow_fn/</loc>
-      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/srp/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</loc>
-      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/t.-springer/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/talk/space_weather_gnss/</loc>
-      <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/z.-li/</loc>
+    <lastmod>2019-06-10T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/resilience/</loc>
-      <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/j.-a.-momoh/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/space-weather/</loc>
-      <lastmod>2018-11-23T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</loc>
+    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/fast_srp/</loc>
-      <lastmod>2018-05-01T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/shadow_fn/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</loc>
-      <lastmod>2018-05-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/project/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/resilience/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/project/satremsens_aqm/</loc>
-      <lastmod>2018-04-27T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/space-weather/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/project/radiation_force_modelling/</loc>
-      <lastmod>2018-04-27T00:00:00+01:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/talk/space_weather_gnss/</loc>
+    <lastmod>2018-11-23T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/project/phd/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/fast_srp/</loc>
+    <lastmod>2018-05-01T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/tags/phd/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</loc>
+    <lastmod>2018-05-01T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication_types/7/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/project/</loc>
+    <lastmod>2018-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/phd_thesis/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/phd/</loc>
+    <lastmod>2016-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication_types/1/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication_types/7/</loc>
+    <lastmod>2015-04-01T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/eftf12/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/phd_thesis/</loc>
+    <lastmod>2015-04-01T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/authors/j.-davis/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication_types/1/</loc>
+    <lastmod>2012-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/author/admin/</loc>
-      <lastmod>2019-02-13T17:17:42+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/publication/eftf12/</loc>
+    <lastmod>2012-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/author/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/j.-davis/</loc>
+    <lastmod>2012-04-27T00:00:00+01:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/authors/admin/</loc>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/post/</loc>
-      <lastmod>2019-02-04T22:42:51+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/categories/</loc>
+  </url>
   
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/publication/</loc>
-      <lastmod>2019-02-04T22:42:51+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://s-bhattarai.github.io/talk/</loc>
-      <lastmod>2019-02-04T22:42:51+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>https://s-bhattarai.github.io/post/</loc>
+  </url>
   
 </urlset>

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>S. Allgeier on Santosh Bhattarai</title>
+    <title>S. Allgeier | Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/authors/s.-allgeier/</link>
-    <description>Recent content in S. Allgeier on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://s-bhattarai.github.io/authors/s.-allgeier/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://s-bhattarai.github.io/authors/s.-allgeier/index.xml" rel="self" type="application/rss+xml" />
+    <description>S. Allgeier</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>S. Allgeier</title>
+      <link>https://s-bhattarai.github.io/authors/s.-allgeier/</link>
+    </image>
     
     <item>
       <title>Demonstrating developments in high-fidelity analytical radiation force modelling methods for spacecraft with a new model for GPS IIR/IIR-M</title>
       <link>https://s-bhattarai.github.io/publication/gpsiir_rfm/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/gpsiir_rfm/</guid>
       <description></description>
     </item>

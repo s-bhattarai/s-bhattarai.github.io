@@ -1,102 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Santosh Bhattarai on Santosh Bhattarai</title>
+    <title>Santosh Bhattarai</title>
     <link>https://s-bhattarai.github.io/</link>
-    <description>Recent content in Santosh Bhattarai on Santosh Bhattarai</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
-    <lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://s-bhattarai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Santosh Bhattarai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Santosh Bhattarai</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Santosh Bhattarai</title>
+      <link>https://s-bhattarai.github.io/</link>
+    </image>
     
     <item>
-      <title>Satellite Geodesy: Surveying the Earth from Orbit</title>
-      <link>https://s-bhattarai.github.io/talk/satellite_geodesy/</link>
-      <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/talk/satellite_geodesy/</guid>
-      <description>
-
-&lt;h2 id=&#34;version-notes&#34;&gt;Version notes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;ucl_sc_geodesy_v07.html&lt;/code&gt; - UCL Science Centre Lecture Series, Summer 2019, London, UK&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;WebGL presentation slides.
-Runs on &lt;a href=&#34;https://github.com/imakewebthings/deck.js&#34; target=&#34;_blank&#34;&gt;deck.js&lt;/a&gt;.
-Use the &amp;ldquo;m&amp;rdquo; key to open the menu for quick navigation between slides. As a template, the presentation uses the slide deck from David Lyon&amp;rsquo;s &amp;lsquo;Intro to WebGL with Three.js&amp;rsquo; (&lt;a href=&#34;http://davidscottlyons.com/threejs-intro&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt; | &lt;a href=&#34;https://youtu.be/6eLl8yQnxHQ&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Demonstrating developments in high-fidelity analytical radiation force modelling methods for spacecraft with a new model for GPS IIR/IIR-M</title>
-      <link>https://s-bhattarai.github.io/publication/gpsiir_rfm/</link>
-      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/publication/gpsiir_rfm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Receiver Clock Jump and Cycle Slip Correction Algorithm for Single-Frequency GNSS</title>
-      <link>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>
-      <link>https://s-bhattarai.github.io/publication/shadow_fn/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/publication/shadow_fn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Vulnerabilities of GNSS to Space Weather</title>
-      <link>https://s-bhattarai.github.io/talk/space_weather_gnss/</link>
-      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/talk/space_weather_gnss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections</title>
-      <link>https://s-bhattarai.github.io/publication/fast_srp/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/publication/fast_srp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Radiation Force Modelling</title>
-      <link>https://s-bhattarai.github.io/project/satremsens_aqm/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/project/satremsens_aqm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Satellite Remote Sensing for Air Quality Monitoring</title>
-      <link>https://s-bhattarai.github.io/project/radiation_force_modelling/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://s-bhattarai.github.io/project/radiation_force_modelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Satellite clock behaviour modelling</title>
+      <title>Satellite Clock Behaviour Modelling</title>
       <link>https://s-bhattarai.github.io/project/phd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/project/phd/</guid>
       <description>&lt;p&gt;In an operational sense, satellite clock time offset prediction (SCTOP)
 is a fundamental requirement in global navigation satellite systems (GNSS)
@@ -114,10 +33,80 @@ focuses on aspects of the latter.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Radiation Force Modelling</title>
+      <link>https://s-bhattarai.github.io/project/radiation_force_modelling/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/project/radiation_force_modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satellite Remote Sensing for Air Quality Monitoring</title>
+      <link>https://s-bhattarai.github.io/project/satremsens_aqm/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/project/satremsens_aqm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Satellite Geodesy: Surveying the Earth from Orbit</title>
+      <link>https://s-bhattarai.github.io/talk/satellite_geodesy/</link>
+      <pubDate>Fri, 21 Jun 2019 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/talk/satellite_geodesy/</guid>
+      <description>&lt;h2 id=&#34;version-notes&#34;&gt;Version notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ucl_sc_geodesy_v07.html&lt;/code&gt; - UCL Science Centre Lecture Series, Summer 2019, London, UK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WebGL presentation slides.
+Runs on &lt;a href=&#34;https://github.com/imakewebthings/deck.js&#34;&gt;deck.js&lt;/a&gt;.
+Use the &amp;ldquo;m&amp;rdquo; key to open the menu for quick navigation between slides. As a template, the presentation uses the slide deck from David Lyon&#39;s &amp;lsquo;Intro to WebGL with Three.js&amp;rsquo; (&lt;a href=&#34;http://davidscottlyons.com/threejs-intro&#34;&gt;Slides&lt;/a&gt; | &lt;a href=&#34;https://youtu.be/6eLl8yQnxHQ&#34;&gt;Video&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demonstrating developments in high-fidelity analytical radiation force modelling methods for spacecraft with a new model for GPS IIR/IIR-M</title>
+      <link>https://s-bhattarai.github.io/publication/gpsiir_rfm/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/publication/gpsiir_rfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Receiver Clock Jump and Cycle Slip Correction Algorithm for Single-Frequency GNSS</title>
+      <link>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/publication/clk_jmp_cycle_slips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>
+      <link>https://s-bhattarai.github.io/publication/shadow_fn/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/publication/shadow_fn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Vulnerabilities of GNSS to Space Weather</title>
+      <link>https://s-bhattarai.github.io/talk/space_weather_gnss/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/talk/space_weather_gnss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections</title>
+      <link>https://s-bhattarai.github.io/publication/fast_srp/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
+      <guid>https://s-bhattarai.github.io/publication/fast_srp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Satellite clock time offset prediction in global navigation satellite systems</title>
       <link>https://s-bhattarai.github.io/publication/phd_thesis/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/phd_thesis/</guid>
       <description></description>
     </item>
@@ -126,7 +115,6 @@ focuses on aspects of the latter.&lt;/p&gt;
       <title>Development of a Kalman filter based GPS satellite clock time-offset prediction algorithm</title>
       <link>https://s-bhattarai.github.io/publication/eftf12/</link>
       <pubDate>Fri, 27 Apr 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://s-bhattarai.github.io/publication/eftf12/</guid>
       <description></description>
     </item>
