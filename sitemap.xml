@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://s-bhattarai.github.io/project/satremsens_aqm/</loc>
-    <lastmod>2018-04-27T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://s-bhattarai.github.io/authors/</loc>
     <lastmod>2019-06-21T00:00:00+01:00</lastmod>
   </url>
@@ -193,6 +188,36 @@
   </url>
   
   <url>
+    <loc>https://s-bhattarai.github.io/authors/admin/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://s-bhattarai.github.io/tags/academic/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://s-bhattarai.github.io/categories/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://s-bhattarai.github.io/categories/demo/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://s-bhattarai.github.io/post/fsp/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://s-bhattarai.github.io/post/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://s-bhattarai.github.io/publication_types/7/</loc>
     <lastmod>2015-04-01T00:00:00+01:00</lastmod>
   </url>
@@ -218,15 +243,8 @@
   </url>
   
   <url>
-    <loc>https://s-bhattarai.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://s-bhattarai.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://s-bhattarai.github.io/post/</loc>
+    <loc>https://s-bhattarai.github.io/project/satremsens_aqm/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic | Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/tags/academic/</link>
+      <atom:link href="https://s-bhattarai.github.io/tags/academic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Santosh Bhattarai</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://s-bhattarai.github.io/img/icon-192.png</url>
+      <title>Academic</title>
+      <link>https://s-bhattarai.github.io/tags/academic/</link>
+    </image>
+    
+    <item>
+      <title>FSP Title Here</title>
+      <link>https://s-bhattarai.github.io/post/fsp/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/post/fsp/</guid>
+      <description>&lt;p&gt;Testing Testing
+&lt;a href=&#34;files/fspviz-21-lh/space_debris.html&#34;&gt;Link to FSP Visualiser v2021 LH&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

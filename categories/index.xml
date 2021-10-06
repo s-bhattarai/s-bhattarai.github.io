@@ -5,12 +5,20 @@
     <link>https://s-bhattarai.github.io/categories/</link>
       <atom:link href="https://s-bhattarai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Santosh Bhattarai</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Santosh Bhattarai</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://s-bhattarai.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://s-bhattarai.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>Demo</title>
+      <link>https://s-bhattarai.github.io/categories/demo/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/categories/demo/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
