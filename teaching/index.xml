@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/teaching/</link>
+    <description>Recent content in Teaching on Santosh Bhattarai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Santosh Bhattarai</copyright>
+    <lastBuildDate>Fri, 08 Jun 2018 11:20:22 +0100</lastBuildDate>
+    
+	<atom:link href="https://s-bhattarai.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Course materials</title>
+      <link>https://s-bhattarai.github.io/teaching/teaching-home/</link>
+      <pubDate>Fri, 08 Jun 2018 11:20:22 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/teaching-home/</guid>
+      <description>Other original materials
+Links</description>
+    </item>
+    
+    <item>
+      <title>Mathematical Modelling &amp; Analysis (MMA)</title>
+      <link>https://s-bhattarai.github.io/teaching/mma/mma-home/</link>
+      <pubDate>Wed, 13 Jun 2018 17:23:28 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/mma/mma-home/</guid>
+      <description>In this Year 1 Term 1 module, students develop their understanding of a range of mathematical concepts and are taught to apply their knowledge to solve a variety of problems across a range of engineering disciplines using Matlab and Excel. Topics covered include:
+ Dimensional Analysis Vectors Linear Algebra Complex Numbers Calculus (Differentiation &amp;amp; Integration) Ordinary Differential Equations Probability Statistical Analysis  Click here for the September 2017 induction week presentation for the module.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://s-bhattarai.github.io/teaching/mma/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/mma/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.
+If this works, then I understand how to use widgets better now, finally.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Mathematical Modelling &amp; Analysis</title>
+      <link>https://s-bhattarai.github.io/teaching/amma/amma-home/</link>
+      <pubDate>Wed, 13 Jun 2018 17:26:57 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/amma/amma-home/</guid>
+      <description>Click here for the 2018 module description.</description>
+    </item>
+    
+    <item>
+      <title>GNSS for Surveying</title>
+      <link>https://s-bhattarai.github.io/teaching/gnss_surveying/gnss_surveying-home/</link>
+      <pubDate>Wed, 13 Jun 2018 17:25:25 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/gnss_surveying/gnss_surveying-home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environmental Building Design Scenario</title>
+      <link>https://s-bhattarai.github.io/teaching/ebd/ebd-home/</link>
+      <pubDate>Wed, 13 Jun 2018 17:30:07 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/ebd/ebd-home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://s-bhattarai.github.io/teaching/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Induction Week</title>
+      <link>https://s-bhattarai.github.io/teaching/mma/induction-week/</link>
+      <pubDate>Fri, 13 Jul 2018 14:07:42 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/teaching/mma/induction-week/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

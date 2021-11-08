@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radiation force models on Santosh Bhattarai</title>
+    <link>https://s-bhattarai.github.io/tags/radiation-force-models/</link>
+    <description>Recent content in radiation force models on Santosh Bhattarai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Santosh Bhattarai</copyright>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://s-bhattarai.github.io/tags/radiation-force-models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A shadow function model based on perspective projection and atmospheric effect for satellites in eclipse</title>
+      <link>https://s-bhattarai.github.io/publication/shadow_fn/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/shadow_fn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast solar radiation pressure modelling with ray tracing and multiple reflections</title>
+      <link>https://s-bhattarai.github.io/publication/fast_srp/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://s-bhattarai.github.io/publication/fast_srp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
