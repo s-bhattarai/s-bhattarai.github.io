@@ -5,12 +5,25 @@
     <link>https://s-bhattarai.github.io/authors/</link>
       <atom:link href="https://s-bhattarai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Santosh Bhattarai</copyright><lastBuildDate>Fri, 21 Jun 2019 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Santosh Bhattarai</copyright><lastBuildDate>Tue, 20 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://s-bhattarai.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://s-bhattarai.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>https://s-bhattarai.github.io/authors/admin/</link>
+      <pubDate>Tue, 20 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://s-bhattarai.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a lecturer in Space Geodesy in the Department of Civil,
+Environmental and Geomatic Engineering (CEGE) at University College London
+(UCL) with research interests in astrodynamics and space debris dynamics for
+orbit prediction and orbit determination, and also, in various aspects of
+global navigation satellite systems (GNSS) and related technologies. If you&#39;re still reading (👍) and want to know more, have a look at my &lt;a href=&#34;https://s-bhattarai.github.io/files/Bhattarai_S_CV_LATEST.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;. I teach Mathematical Modelling and Analysis to first and second year undergraduates in the &lt;a href=&#34;https://www.ucl.ac.uk/bartlett/architecture/programmes/undergraduate/engineering-and-architectural-design-meng&#34;&gt;MEng in Engineering and Architectural Design Programme&lt;/a&gt; and contribute to teaching on various modules in CEGE. Please reach out if you&#39;re interested in collaborating!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>S. Bhattarai</title>
@@ -90,19 +103,6 @@
       <pubDate>Tue, 01 May 2018 00:00:00 +0100</pubDate>
       <guid>https://s-bhattarai.github.io/authors/z.-li-m.-ziebart-s.-bhattarai-d.-harrison-s.-grey/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://s-bhattarai.github.io/authors/admin/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://s-bhattarai.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a lecturer in Space Geodesy in the Department of Civil,
-Environmental and Geomatic Engineering (CEGE) at University College London
-(UCL) with research interests in astrodynamics and space debris dynamics for
-orbit prediction and orbit determination, and also, in various aspects of
-global navigation satellite systems (GNSS) and related technologies. If you&#39;re still reading (👍) and want to know more, have a look at my &lt;a href=&#34;https://s-bhattarai.github.io/files/Bhattarai_S_CV_LATEST.pdf&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;. I teach Mathematical Modelling and Analysis to first and second year undergraduates in the &lt;a href=&#34;https://www.ucl.ac.uk/bartlett/architecture/programmes/undergraduate/engineering-and-architectural-design-meng&#34;&gt;MEng in Engineering and Architectural Design Programme&lt;/a&gt; and contribute to teaching on various modules in CEGE. Please reach out if you&#39;re interested in collaborating!&lt;/p&gt;
-</description>
     </item>
     
     <item>
